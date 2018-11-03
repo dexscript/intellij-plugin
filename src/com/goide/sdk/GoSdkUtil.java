@@ -18,7 +18,6 @@ package com.goide.sdk;
 
 import com.goide.GoConstants;
 import com.goide.GoEnvironmentUtil;
-import com.goide.appengine.YamlFilesModificationTracker;
 import com.goide.project.GoApplicationLibrariesService;
 import com.goide.project.GoLibrariesService;
 import com.goide.psi.GoFile;
@@ -190,24 +189,7 @@ public class GoSdkUtil {
 
   @NotNull
   public static Collection<VirtualFile> getGoPathSources(@NotNull Project project, @Nullable Module module) {
-    if (module != null) {
-      return CachedValuesManager.getManager(project).getCachedValue(module, () -> {
-        Collection<VirtualFile> result = newLinkedHashSet();
-        Project project1 = module.getProject();
-        GoSdkService sdkService = GoSdkService.getInstance(project1);
-        if (sdkService.isAppEngineSdk(module)) {
-          ContainerUtil.addAllNotNull(result, ContainerUtil.mapNotNull(YamlFilesModificationTracker.getYamlFiles(project1, module),
-                                                                       VirtualFile::getParent));
-        }
-        result.addAll(getInnerGoPathSources(project1, module));
-        return CachedValueProvider.Result
-          .create(result, getSdkAndLibrariesCacheDependencies(project1, module, YamlFilesModificationTracker.getInstance(project1)));
-      });
-    }
-    return CachedValuesManager.getManager(project).getCachedValue(project,
-                                                                  (CachedValueProvider<Collection<VirtualFile>>)() -> CachedValueProvider.Result
-                                                                    .create(getInnerGoPathSources(project, null),
-                                                                            getSdkAndLibrariesCacheDependencies(project, null, YamlFilesModificationTracker.getInstance(project))));
+    throw new UnsupportedOperationException("not implemented");
   }
 
   @NotNull

@@ -28,7 +28,7 @@ import org.jetbrains.annotations.NotNull;
 
 @State(
   name = GoConstants.GO_LIBRARIES_SERVICE_NAME,
-  storages = @Storage(file = StoragePathMacros.APP_CONFIG + "/" + GoConstants.GO_LIBRARIES_CONFIG_FILE)
+  storages = @Storage(file = StoragePathMacros.CACHE_FILE + "/" + GoConstants.GO_LIBRARIES_CONFIG_FILE)
 )
 public class GoApplicationLibrariesService extends GoLibrariesService<GoApplicationLibrariesService.GoApplicationLibrariesState> {
   @NotNull

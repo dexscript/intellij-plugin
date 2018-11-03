@@ -85,8 +85,7 @@ public class GoProjectModelConverterProvider extends ConverterProvider {
 
       @Override
       public boolean isConversionNeeded() {
-        Element component = getProjectRootManager(context);
-        return component != null && isGoSdkType(component.getAttributeValue(ProjectRootManagerImpl.PROJECT_JDK_TYPE_ATTR));
+        throw new UnsupportedOperationException("not implemented");
       }
 
       @Override
@@ -147,8 +146,7 @@ public class GoProjectModelConverterProvider extends ConverterProvider {
   private static class ProjectFileConverter extends ConversionProcessor<ProjectSettings> {
     @Override
     public boolean isConversionNeeded(@NotNull ProjectSettings settings) {
-      Element projectRootManager = getProjectRootManager(settings.getRootElement());
-      return projectRootManager != null && isGoSdkType(projectRootManager.getAttributeValue(ProjectRootManagerImpl.PROJECT_JDK_TYPE_ATTR));
+      throw new UnsupportedOperationException("not implemented");
     }
 
     @Override
@@ -207,8 +205,7 @@ public class GoProjectModelConverterProvider extends ConverterProvider {
   }
 
   private static void updateSdkType(@NotNull File file, @NotNull Element projectRootManager) throws CannotConvertException {
-    projectRootManager.setAttribute(ProjectRootManagerImpl.PROJECT_JDK_TYPE_ATTR, GoConstants.SDK_TYPE_ID);
-    saveFile(file, projectRootManager, "Cannot save sdk type changing");
+    throw new UnsupportedOperationException("not implemented");
   }
 
   @NotNull

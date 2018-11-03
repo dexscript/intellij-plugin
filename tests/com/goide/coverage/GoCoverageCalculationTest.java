@@ -19,7 +19,6 @@ package com.goide.coverage;
 import com.goide.GoCodeInsightFixtureTestCase;
 import com.goide.runconfig.testing.coverage.GoCoverageAnnotator;
 import com.goide.runconfig.testing.coverage.GoCoverageProjectData;
-import com.goide.runconfig.testing.coverage.GoCoverageRunner;
 import com.intellij.openapi.vfs.VirtualFile;
 import org.jetbrains.annotations.NotNull;
 

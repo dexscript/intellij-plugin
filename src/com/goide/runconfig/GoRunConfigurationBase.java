@@ -44,7 +44,7 @@ import java.util.Collection;
 import java.util.Map;
 
 public abstract class GoRunConfigurationBase<RunningState extends GoRunningState>
-  extends ModuleBasedConfiguration<GoModuleBasedConfiguration> implements RunConfigurationWithSuppressedDefaultRunAction,
+  extends ModuleBasedConfiguration<GoModuleBasedConfiguration, RunProfileState> implements RunConfigurationWithSuppressedDefaultRunAction,
                                                                           RunConfigurationWithSuppressedDefaultDebugAction {
 
   private static final String WORKING_DIRECTORY_NAME = "working_directory";

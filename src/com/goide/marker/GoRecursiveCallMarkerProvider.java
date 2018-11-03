@@ -75,7 +75,7 @@ public class GoRecursiveCallMarkerProvider implements LineMarkerProvider {
       super(methodCall,
             methodCall.getTextRange(),
             AllIcons.Gutter.RecursiveMethod,
-            Pass.UPDATE_OVERRIDDEN_MARKERS,
+            Pass.UPDATE_ALL,
             FunctionUtil.constant("Recursive call"),
             null,
             GutterIconRenderer.Alignment.RIGHT
