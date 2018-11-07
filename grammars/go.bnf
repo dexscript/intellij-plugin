@@ -1,5 +1,5 @@
 {
-  parserClass='com.goide.parser.GoParser'
+  parserClass='com.dexscript.parser.GoParser'
   classHeader='copyrightHeader.java'
 
   implements='com.goide.psi.GoCompositeElement'
@@ -15,7 +15,7 @@
   psiPackage='com.goide.psi'
   psiImplPackage='com.goide.psi.impl'
   psiImplUtilClass="com.goide.psi.impl.GoPsiImplUtil"
-  parserUtilClass="com.goide.parser.GoParserUtil"
+  parserUtilClass="com.dexscript.parser.GoParserUtil"
 
   tokens=[
     LBRACE               =  '{'

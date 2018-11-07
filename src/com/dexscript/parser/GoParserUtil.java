@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.goide.parser;
+package com.dexscript.parser;
 
 import com.goide.GoParserDefinition;
 import com.goide.GoTypes;

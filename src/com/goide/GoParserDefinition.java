@@ -17,7 +17,7 @@
 package com.goide;
 
 import com.dexscript.lexer.GoLexer;
-import com.goide.parser.GoParser;
+import com.dexscript.parser.GoParser;
 import com.goide.psi.GoFile;
 import com.goide.psi.GoTokenType;
 import com.intellij.lang.ASTNode;
