@@ -18,7 +18,6 @@ package com.goide.runconfig.ui;
 
 import com.goide.runconfig.GoRunUtil;
 import com.goide.runconfig.application.GoApplicationConfiguration;
-import com.goide.runconfig.testing.ui.GoPackageFieldCompletionProvider;
 import com.intellij.openapi.options.ConfigurationException;
 import com.intellij.openapi.options.SettingsEditor;
 import com.intellij.openapi.project.Project;
@@ -87,8 +86,6 @@ public class GoApplicationConfigurationEditorForm extends SettingsEditor<GoAppli
   }
 
   private void createUIComponents() {
-    myPackageField = new GoPackageFieldCompletionProvider(
-      () -> myCommonSettingsPanel != null ? myCommonSettingsPanel.getSelectedModule() : null).createEditor(myProject);
   }
 
   @Nullable

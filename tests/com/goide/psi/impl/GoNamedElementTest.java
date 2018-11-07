@@ -16,8 +16,8 @@
 
 package com.goide.psi.impl;
 
+import com.dexscript.psi.GoVarDefinition;
 import com.goide.GoCodeInsightFixtureTestCase;
-import com.goide.psi.GoVarDefinition;
 import com.intellij.psi.PsiFile;
 import com.intellij.psi.search.GlobalSearchScope;
 import com.intellij.psi.search.LocalSearchScope;

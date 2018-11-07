@@ -16,6 +16,8 @@
 
 package com.goide.psi;
 
+import com.dexscript.psi.GoFieldName;
+import com.dexscript.psi.GoReferenceExpression;
 import com.goide.GoCodeInsightFixtureTestCase;
 import com.intellij.codeInsight.highlighting.ReadWriteAccessDetector;
 import com.intellij.psi.PsiElement;

@@ -16,7 +16,6 @@
 
 package com.goide.stubs.index;
 
-import com.goide.runconfig.testing.GoTestFinder;
 import com.intellij.openapi.diagnostic.Logger;
 import com.intellij.openapi.progress.ProgressManager;
 import com.intellij.openapi.project.Project;
@@ -52,14 +51,6 @@ public class GoIdFilter extends IdFilter {
   @Override
   public boolean containsFileId(int id) {
     return id >= 0 && myIdSet.get(id);
-  }
-
-  public static IdFilter getProductionFilter(@NotNull Project project) {
-    return createIdFilter(project, PRODUCTION_FILTER, file -> !file.isDirectory() && !GoTestFinder.isTestFile(file));
-  }
-
-  public static IdFilter getTestsFilter(@NotNull Project project) {
-    return createIdFilter(project, TESTS_FILTER, file -> !file.isDirectory() && GoTestFinder.isTestFile(file));
   }
 
   private static IdFilter createIdFilter(@NotNull Project project,

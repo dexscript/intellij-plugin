@@ -16,8 +16,9 @@
 
 package com.goide.psi.impl;
 
+import com.dexscript.psi.*;
+import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.goide.GoCodeInsightFixtureTestCase;
-import com.goide.psi.*;
 import com.intellij.psi.PsiFile;
 import com.intellij.psi.util.PsiTreeUtil;
 

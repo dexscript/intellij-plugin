@@ -19,7 +19,6 @@ package com.goide.runconfig.application;
 import com.dexscript.psi.GoFile;
 import com.goide.runconfig.GoRunConfigurationProducerBase;
 import com.goide.runconfig.GoRunUtil;
-import com.goide.runconfig.testing.GoTestFinder;
 import com.goide.sdk.GoSdkUtil;
 import com.intellij.execution.actions.ConfigurationContext;
 import com.intellij.openapi.module.Module;
@@ -43,9 +42,6 @@ public class GoApplicationRunConfigurationProducer extends GoRunConfigurationPro
                                                   @NotNull ConfigurationContext context,
                                                   Ref<PsiElement> sourceElement) {
     PsiElement contextElement = GoRunUtil.getContextElement(context);
-    if (contextElement != null && GoTestFinder.isTestFile(contextElement.getContainingFile())) {
-      return false;
-    }
     String importPath = getImportPathFromContext(contextElement);
     if (StringUtil.isNotEmpty(importPath)) {
       configuration.setModule(context.getModule());

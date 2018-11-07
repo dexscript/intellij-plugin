@@ -16,9 +16,9 @@
 
 package com.goide.psi.legacy;
 
+import com.dexscript.psi.GoFile;
 import com.goide.GoCodeInsightFixtureTestCase;
 import com.goide.project.GoModuleLibrariesService;
-import com.goide.psi.GoFile;
 import com.intellij.openapi.vfs.VfsUtilCore;
 import com.intellij.openapi.vfs.VirtualFile;
 import com.intellij.psi.PsiElement;

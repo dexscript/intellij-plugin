@@ -16,6 +16,7 @@
 
 package com.goide.lexer;
 
+import com.dexscript.lexer.GoLexer;
 import com.intellij.lexer.Lexer;
 import com.intellij.openapi.util.io.FileUtil;
 import com.intellij.openapi.util.text.StringUtil;

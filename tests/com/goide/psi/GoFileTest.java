@@ -16,6 +16,7 @@
 
 package com.goide.psi;
 
+import com.dexscript.psi.GoFile;
 import com.goide.GoCodeInsightFixtureTestCase;
 
 public class GoFileTest extends GoCodeInsightFixtureTestCase {

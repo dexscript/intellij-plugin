@@ -21,7 +21,6 @@ import com.goide.GoConstants;
 import com.goide.GoFileType;
 import com.goide.GoLanguage;
 import com.dexscript.parser.GoTypes;
-import com.goide.runconfig.testing.GoTestFinder;
 import com.goide.sdk.GoPackageUtil;
 import com.goide.sdk.GoSdkUtil;
 import com.goide.stubs.GoConstSpecStub;
@@ -327,11 +326,7 @@ public class GoFile extends PsiFileBase {
   }
 
   public String getCanonicalPackageName() {
-    String packageName = getPackageName();
-    if (StringUtil.isNotEmpty(packageName) && GoTestFinder.isTestFile(this)) {
-      return StringUtil.trimEnd(packageName, GoConstants.TEST_SUFFIX);
-    }
-    return packageName;
+    return getPackageName();
   }
 
   @Nullable

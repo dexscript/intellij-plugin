@@ -20,7 +20,6 @@ import com.dexscript.psi.*;
 import com.goide.GoConstants;
 import com.dexscript.parser.GoTypes;
 import com.dexscript.psi.impl.imports.GoImportReferenceSet;
-import com.goide.runconfig.testing.GoTestFinder;
 import com.goide.sdk.GoPackageUtil;
 import com.goide.sdk.GoSdkUtil;
 import com.goide.stubs.*;
@@ -876,9 +875,7 @@ public class GoPsiImplUtil {
       return false;
     }
     // it's not a test or context file is also test from the same package
-    return referenceFile == null
-           || !GoTestFinder.isTestFile(declarationFile)
-           || GoTestFinder.isTestFile(referenceFile) && Comparing.equal(referenceFile.getParent(), declarationFile.getParent());
+    return referenceFile == null || Comparing.equal(referenceFile.getParent(), declarationFile.getParent());
   }
 
   static boolean processNamedElements(@NotNull PsiScopeProcessor processor,

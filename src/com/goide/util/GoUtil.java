@@ -17,11 +17,9 @@
 package com.goide.util;
 
 import com.dexscript.psi.*;
+import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.goide.GoConstants;
 import com.goide.project.GoExcludedPathsSettings;
-import com.dexscript.psi.*;
-import com.dexscript.psi.impl.GoPsiImplUtil;
-import com.goide.runconfig.testing.GoTestFinder;
 import com.goide.sdk.GoPackageUtil;
 import com.intellij.ide.plugins.IdeaPluginDescriptor;
 import com.intellij.ide.plugins.PluginManager;
@@ -190,56 +188,4 @@ public class GoUtil {
     return packageName;
   }
 
-  public static class ExceptTestsScope extends DelegatingGlobalSearchScope {
-    public ExceptTestsScope(@NotNull GlobalSearchScope baseScope) {
-      super(baseScope);
-    }
-
-    @Override
-    public boolean contains(@NotNull VirtualFile file) {
-      return !GoTestFinder.isTestFile(file) && super.contains(file);
-    }
-  }
-  
-  public static class TestsScope extends DelegatingGlobalSearchScope {
-    public TestsScope(@NotNull GlobalSearchScope baseScope) {
-      super(baseScope);
-    }
-
-    @Override
-    public boolean contains(@NotNull VirtualFile file) {
-      return GoTestFinder.isTestFile(file) && super.contains(file);
-    }
-  }
-
-  public static class ExceptChildOfDirectory extends DelegatingGlobalSearchScope {
-    @NotNull private final VirtualFile myParent;
-    @Nullable private final String myAllowedPackageInExcludedDirectory;
-
-    public ExceptChildOfDirectory(@NotNull VirtualFile parent,
-                                  @NotNull GlobalSearchScope baseScope,
-                                  @Nullable String allowedPackageInExcludedDirectory) {
-      super(baseScope);
-      myParent = parent;
-      myAllowedPackageInExcludedDirectory = allowedPackageInExcludedDirectory;
-    }
-
-    @Override
-    public boolean contains(@NotNull VirtualFile file) {
-      if (myParent.equals(file.getParent())) {
-        if (myAllowedPackageInExcludedDirectory == null) {
-          return false;
-        }
-        Project project = getProject();
-        PsiFile psiFile = project != null ? PsiManager.getInstance(project).findFile(file) : null;
-        if (!(psiFile instanceof GoFile)) {
-          return false;
-        }
-        if (!myAllowedPackageInExcludedDirectory.equals(((GoFile)psiFile).getPackageName())) {
-          return false;
-        }
-      }
-      return super.contains(file);
-    }
-  }
 }
