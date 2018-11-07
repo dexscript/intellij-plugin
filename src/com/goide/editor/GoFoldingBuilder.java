@@ -17,7 +17,7 @@
 package com.goide.editor;
 
 import com.dexscript.psi.*;
-import com.dexscript.parser.GoParserDefinition;
+import com.dexscript.intellij.GoParserDefinition;
 import com.dexscript.parser.GoTypes;
 import com.intellij.codeInsight.folding.CodeFoldingSettings;
 import com.intellij.lang.ASTNode;

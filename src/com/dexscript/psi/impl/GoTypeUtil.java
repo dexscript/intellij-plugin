@@ -17,8 +17,7 @@
 package com.dexscript.psi.impl;
 
 import com.dexscript.psi.*;
-import com.goide.GoConstants;
-import com.dexscript.psi.*;
+import com.dexscript.intellij.GoConstants;
 import com.intellij.openapi.util.text.StringUtil;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiReference;

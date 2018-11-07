@@ -16,6 +16,7 @@
 
 package com.goide;
 
+import com.dexscript.intellij.GoConstants;
 import com.goide.sdk.GoSdkType;
 import com.intellij.ide.util.projectWizard.ModuleWizardStep;
 import com.intellij.ide.util.projectWizard.ProjectJdkForModuleStep;

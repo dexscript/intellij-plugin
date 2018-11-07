@@ -16,7 +16,7 @@
 
 package com.goide.configuration;
 
-import com.goide.GoConstants;
+import com.dexscript.intellij.GoConstants;
 import com.goide.sdk.GoSdkService;
 import com.intellij.openapi.module.Module;
 import com.intellij.openapi.options.Configurable;

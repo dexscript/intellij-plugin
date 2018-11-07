@@ -16,7 +16,7 @@
 
 package com.goide.project.migration;
 
-import com.goide.GoConstants;
+import com.dexscript.intellij.GoConstants;
 import com.goide.project.GoApplicationLibrariesService;
 import com.goide.project.GoProjectLibrariesService;
 import com.goide.sdk.GoSdkType;
@@ -29,7 +29,6 @@ import com.intellij.openapi.projectRoots.ProjectJdkTable;
 import com.intellij.openapi.projectRoots.Sdk;
 import com.intellij.openapi.projectRoots.impl.ProjectJdkImpl;
 import com.intellij.openapi.roots.OrderRootType;
-import com.intellij.openapi.roots.impl.ProjectRootManagerImpl;
 import com.intellij.openapi.util.JDOMUtil;
 import com.intellij.openapi.util.io.FileUtil;
 import com.intellij.openapi.vfs.VirtualFile;

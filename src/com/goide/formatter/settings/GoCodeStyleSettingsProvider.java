@@ -16,7 +16,7 @@
 
 package com.goide.formatter.settings;
 
-import com.goide.GoConstants;
+import com.dexscript.intellij.GoConstants;
 import com.intellij.openapi.options.Configurable;
 import com.intellij.psi.codeStyle.CodeStyleSettings;
 import com.intellij.psi.codeStyle.CodeStyleSettingsProvider;

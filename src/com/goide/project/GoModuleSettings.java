@@ -16,7 +16,7 @@
 
 package com.goide.project;
 
-import com.goide.GoConstants;
+import com.dexscript.intellij.GoConstants;
 import com.goide.configuration.GoConfigurableProvider;
 import com.goide.configuration.GoModuleSettingsConfigurable;
 import com.intellij.codeInsight.daemon.DaemonCodeAnalyzer;

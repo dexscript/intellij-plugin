@@ -16,7 +16,7 @@
 
 package com.dexscript.psi;
 
-import com.goide.GoLanguage;
+import com.dexscript.intellij.GoLanguage;
 import com.intellij.psi.tree.IElementType;
 import org.jetbrains.annotations.NotNull;
 

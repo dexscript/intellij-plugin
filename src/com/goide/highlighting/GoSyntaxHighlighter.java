@@ -16,7 +16,7 @@
 
 package com.goide.highlighting;
 
-import com.dexscript.parser.GoParserDefinition;
+import com.dexscript.intellij.GoParserDefinition;
 import com.dexscript.parser.GoTypes;
 import com.dexscript.lexer.GoLexer;
 import com.intellij.lexer.Lexer;

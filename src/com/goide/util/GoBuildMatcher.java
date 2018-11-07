@@ -16,7 +16,7 @@
 
 package com.goide.util;
 
-import com.goide.GoConstants;
+import com.dexscript.intellij.GoConstants;
 import com.dexscript.psi.GoFile;
 import com.goide.sdk.GoSdkUtil;
 import com.intellij.openapi.util.io.FileUtil;

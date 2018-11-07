@@ -16,7 +16,7 @@
 
 package com.dexscript.lexer;
 
-import com.dexscript.parser.GoParserDefinition;
+import com.dexscript.intellij.GoParserDefinition;
 import com.intellij.lexer.FlexAdapter;
 import com.intellij.lexer.MergingLexerAdapter;
 import com.intellij.psi.tree.TokenSet;

@@ -17,7 +17,7 @@
 package com.goide.highlighting;
 
 import com.dexscript.psi.*;
-import com.goide.GoConstants;
+import com.dexscript.intellij.GoConstants;
 import com.dexscript.parser.GoTypes;
 import com.dexscript.psi.impl.GoCType;
 import com.dexscript.psi.impl.GoPsiImplUtil;

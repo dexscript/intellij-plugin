@@ -18,7 +18,7 @@ package com.dexscript.psi.impl;
 
 import com.dexscript.psi.*;
 import com.dexscript.stubs.*;
-import com.goide.GoConstants;
+import com.dexscript.intellij.GoConstants;
 import com.dexscript.parser.GoTypes;
 import com.dexscript.psi.impl.imports.GoImportReferenceSet;
 import com.goide.sdk.GoPackageUtil;

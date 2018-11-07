@@ -16,7 +16,7 @@
 
 package com.goide;
 
-import com.dexscript.parser.GoParserDefinition;
+import com.dexscript.intellij.GoParserDefinition;
 import com.intellij.lang.CodeDocumentationAwareCommenter;
 import com.intellij.psi.PsiComment;
 import com.intellij.psi.tree.IElementType;

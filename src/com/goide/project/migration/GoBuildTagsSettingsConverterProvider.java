@@ -16,7 +16,7 @@
 
 package com.goide.project.migration;
 
-import com.goide.GoConstants;
+import com.dexscript.intellij.GoConstants;
 import com.goide.project.GoBuildTargetSettings;
 import com.intellij.conversion.*;
 import com.intellij.ide.impl.convert.JDomConvertingUtil;

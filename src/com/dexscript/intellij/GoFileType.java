@@ -14,48 +14,57 @@
  * limitations under the License.
  */
 
-package com.goide;
+package com.dexscript.intellij;
 
-import com.intellij.facet.ui.ValidationResult;
-import com.intellij.openapi.module.Module;
-import com.intellij.openapi.progress.ProcessCanceledException;
+import com.goide.GoIcons;
+import com.intellij.openapi.fileTypes.LanguageFileType;
 import com.intellij.openapi.project.Project;
+import com.intellij.openapi.vfs.CharsetToolkit;
 import com.intellij.openapi.vfs.VirtualFile;
-import com.intellij.platform.DirectoryProjectGenerator;
-import org.jetbrains.annotations.Nls;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import javax.swing.*;
+import java.nio.charset.Charset;
 
-public class GoProjectGenerator implements DirectoryProjectGenerator {
-  @Nls
+public class GoFileType extends LanguageFileType {
+  public static final LanguageFileType INSTANCE = new GoFileType();
+
+  protected GoFileType() {
+    super(GoLanguage.INSTANCE);
+  }
+
   @NotNull
   @Override
   public String getName() {
     return GoConstants.GO;
   }
 
-  @Nullable
+  @NotNull
   @Override
-  public Object showGenerationSettings(VirtualFile baseDir) throws ProcessCanceledException {
-    return null;
-  }
-
-  @Nullable
-  @Override
-  public Icon getLogo() {
-    return GoIcons.ICON;
-  }
-
-  @Override
-  public void generateProject(@NotNull Project project, @NotNull VirtualFile baseDir, @Nullable Object settings, @NotNull Module module) {
-
+  public String getDescription() {
+    return "Go files";
   }
 
   @NotNull
   @Override
-  public ValidationResult validate(@NotNull String baseDirPath) {
-    return ValidationResult.OK;
+  public String getDefaultExtension() {
+    return "go";
+  }
+
+  @Nullable
+  @Override
+  public Icon getIcon() {
+    return GoIcons.ICON;
+  }
+
+  @Override
+  public String getCharset(@NotNull VirtualFile file, @NotNull byte[] content) {
+    return CharsetToolkit.UTF8;
+  }
+
+  @Override
+  public Charset extractCharsetFromFileContent(@Nullable Project project, @Nullable VirtualFile file, @NotNull CharSequence content) {
+    return CharsetToolkit.UTF8_CHARSET;
   }
 }

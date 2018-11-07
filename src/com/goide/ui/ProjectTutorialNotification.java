@@ -16,7 +16,7 @@
 
 package com.goide.ui;
 
-import com.goide.GoConstants;
+import com.dexscript.intellij.GoConstants;
 import com.intellij.ide.util.PropertiesComponent;
 import com.intellij.notification.NotificationListener;
 import com.intellij.notification.NotificationType;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.goide;
+package com.dexscript.intellij;
 
 import com.dexscript.psi.GoFile;
 import com.dexscript.stubs.GoFileStub;

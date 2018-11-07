@@ -16,7 +16,7 @@
 
 package com.goide.formatter.settings;
 
-import com.goide.GoLanguage;
+import com.dexscript.intellij.GoLanguage;
 import com.intellij.application.options.IndentOptionsEditor;
 import com.intellij.application.options.SmartIndentOptionsEditor;
 import com.intellij.lang.Language;

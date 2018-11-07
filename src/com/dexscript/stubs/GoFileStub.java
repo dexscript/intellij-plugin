@@ -17,7 +17,7 @@
 package com.dexscript.stubs;
 
 import com.dexscript.stubs.types.GoPackageClauseStubElementType;
-import com.goide.GoFileElementType;
+import com.dexscript.intellij.GoFileElementType;
 import com.dexscript.psi.GoFile;
 import com.dexscript.psi.GoPackageClause;
 import com.intellij.psi.stubs.PsiFileStubImpl;

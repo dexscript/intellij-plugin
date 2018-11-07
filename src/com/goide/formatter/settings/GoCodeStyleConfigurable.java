@@ -16,8 +16,8 @@
 
 package com.goide.formatter.settings;
 
-import com.goide.GoConstants;
-import com.goide.GoLanguage;
+import com.dexscript.intellij.GoConstants;
+import com.dexscript.intellij.GoLanguage;
 import com.intellij.application.options.CodeStyleAbstractConfigurable;
 import com.intellij.application.options.CodeStyleAbstractPanel;
 import com.intellij.application.options.TabbedLanguageCodeStylePanel;

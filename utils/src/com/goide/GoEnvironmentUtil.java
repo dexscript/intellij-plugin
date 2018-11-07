@@ -16,6 +16,7 @@
 
 package com.goide;
 
+import com.dexscript.intellij.GoConstants;
 import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.application.PathMacros;
 import com.intellij.openapi.util.SystemInfo;

@@ -16,7 +16,7 @@
 
 package com.goide.sdk;
 
-import com.goide.GoConstants;
+import com.dexscript.intellij.GoConstants;
 import com.goide.GoEnvironmentUtil;
 import com.intellij.execution.configurations.PathEnvironmentVariableUtil;
 import com.intellij.openapi.Disposable;

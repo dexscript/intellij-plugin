@@ -17,7 +17,7 @@
 package com.goide.template;
 
 import com.dexscript.psi.*;
-import com.goide.GoLanguage;
+import com.dexscript.intellij.GoLanguage;
 import com.dexscript.parser.GoTypes;
 import com.goide.highlighting.GoSyntaxHighlighter;
 import com.intellij.codeInsight.template.TemplateContextType;

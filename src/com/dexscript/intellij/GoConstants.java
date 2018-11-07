@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.goide;
+package com.dexscript.intellij;
 
 import com.intellij.notification.NotificationGroup;
 import com.intellij.openapi.wm.ToolWindowId;

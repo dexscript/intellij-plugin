@@ -16,7 +16,7 @@
 
 package com.goide.highlighting;
 
-import com.goide.GoFileType;
+import com.dexscript.intellij.GoFileType;
 import com.intellij.openapi.util.Condition;
 import com.intellij.openapi.vfs.VirtualFile;
 

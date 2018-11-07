@@ -16,7 +16,7 @@
 
 package com.goide.sdk;
 
-import com.goide.GoConstants;
+import com.dexscript.intellij.GoConstants;
 import com.goide.GoEnvironmentUtil;
 import com.goide.project.GoApplicationLibrariesService;
 import com.goide.project.GoLibrariesService;

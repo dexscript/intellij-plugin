@@ -16,7 +16,7 @@
 
 package com.goide.project;
 
-import com.goide.GoConstants;
+import com.dexscript.intellij.GoConstants;
 import com.goide.GoLibrariesState;
 import com.intellij.openapi.components.*;
 import com.intellij.openapi.project.Project;

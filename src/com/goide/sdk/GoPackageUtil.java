@@ -16,7 +16,7 @@
 
 package com.goide.sdk;
 
-import com.goide.GoConstants;
+import com.dexscript.intellij.GoConstants;
 import com.goide.project.GoBuildTargetSettings;
 import com.goide.project.GoModuleSettings;
 import com.dexscript.psi.GoFile;

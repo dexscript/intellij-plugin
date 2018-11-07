@@ -16,6 +16,7 @@
 
 package com.goide;
 
+import com.dexscript.intellij.GoFileType;
 import com.intellij.openapi.fileTypes.FileTypeConsumer;
 import com.intellij.openapi.fileTypes.FileTypeFactory;
 import org.jetbrains.annotations.NotNull;

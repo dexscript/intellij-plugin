@@ -17,8 +17,7 @@
 package com.dexscript.psi.impl;
 
 import com.dexscript.psi.*;
-import com.goide.GoLanguage;
-import com.dexscript.psi.*;
+import com.dexscript.intellij.GoLanguage;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.util.text.StringUtil;
 import com.intellij.psi.PsiElement;

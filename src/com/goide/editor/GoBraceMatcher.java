@@ -16,7 +16,7 @@
 
 package com.goide.editor;
 
-import com.dexscript.parser.GoParserDefinition;
+import com.dexscript.intellij.GoParserDefinition;
 import com.dexscript.parser.GoTypes;
 import com.intellij.lang.BracePair;
 import com.intellij.lang.PairedBraceMatcher;

@@ -16,7 +16,7 @@
 
 package com.dexscript.stubs.index;
 
-import com.goide.GoFileElementType;
+import com.dexscript.intellij.GoFileElementType;
 import com.dexscript.psi.GoTypeSpec;
 import com.intellij.openapi.project.Project;
 import com.intellij.psi.search.GlobalSearchScope;

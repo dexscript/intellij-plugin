@@ -16,7 +16,7 @@
 
 package com.goide.highlighting;
 
-import com.goide.GoFileType;
+import com.dexscript.intellij.GoFileType;
 import com.intellij.openapi.editor.colors.TextAttributesKey;
 import com.intellij.openapi.fileTypes.SyntaxHighlighter;
 import com.intellij.openapi.options.colors.AttributesDescriptor;

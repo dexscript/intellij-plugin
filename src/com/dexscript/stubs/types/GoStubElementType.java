@@ -16,7 +16,7 @@
 
 package com.dexscript.stubs.types;
 
-import com.goide.GoLanguage;
+import com.dexscript.intellij.GoLanguage;
 import com.dexscript.psi.GoBlock;
 import com.dexscript.psi.GoCompositeElement;
 import com.intellij.lang.ASTNode;

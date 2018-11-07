@@ -16,7 +16,7 @@
 
 package com.goide.parser;
 
-import com.dexscript.parser.GoParserDefinition;
+import com.dexscript.intellij.GoParserDefinition;
 
 public class GoParserTest extends GoParserTestBase {
   public GoParserTest() {

@@ -16,7 +16,7 @@
 
 package com.dexscript.stubs.index;
 
-import com.goide.GoFileElementType;
+import com.dexscript.intellij.GoFileElementType;
 import com.dexscript.psi.GoFile;
 import com.intellij.psi.stubs.StringStubIndexExtension;
 import com.intellij.psi.stubs.StubIndexKey;

@@ -17,7 +17,7 @@
 package com.goide.formatter;
 
 import com.dexscript.psi.*;
-import com.goide.GoLanguage;
+import com.dexscript.intellij.GoLanguage;
 import com.intellij.formatting.*;
 import com.intellij.formatting.alignment.AlignmentStrategy;
 import com.intellij.lang.ASTNode;
@@ -37,7 +37,7 @@ import org.jetbrains.annotations.Nullable;
 import java.util.Collections;
 import java.util.List;
 
-import static com.dexscript.parser.GoParserDefinition.*;
+import static com.dexscript.intellij.GoParserDefinition.*;
 import static com.dexscript.parser.GoTypes.*;
 
 public class GoFormattingModelBuilder implements FormattingModelBuilder {
