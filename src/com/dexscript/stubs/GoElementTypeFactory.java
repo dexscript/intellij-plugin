@@ -20,7 +20,6 @@ import com.dexscript.psi.GoType;
 import com.dexscript.psi.GoVarSpec;
 import com.dexscript.psi.impl.*;
 import com.dexscript.stubs.types.*;
-import com.goide.stubs.types.*;
 import com.intellij.psi.stubs.IStubElementType;
 import com.intellij.util.ReflectionUtil;
 import com.intellij.util.containers.HashMap;

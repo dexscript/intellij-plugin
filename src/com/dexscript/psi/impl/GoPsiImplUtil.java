@@ -23,7 +23,6 @@ import com.dexscript.parser.GoTypes;
 import com.dexscript.psi.impl.imports.GoImportReferenceSet;
 import com.goide.sdk.GoPackageUtil;
 import com.goide.sdk.GoSdkUtil;
-import com.goide.stubs.*;
 import com.dexscript.stubs.index.GoIdFilter;
 import com.dexscript.stubs.index.GoMethodIndex;
 import com.dexscript.parser.GoStringLiteralEscaper;
