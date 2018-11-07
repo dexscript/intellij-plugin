@@ -16,11 +16,10 @@
 
 package com.dexscript.psi.impl.imports;
 
-import com.goide.codeInsight.imports.GoGetPackageFix;
-import com.goide.completion.GoCompletionUtil;
-import com.goide.sdk.GoPackageUtil;
+import com.goide.GoIcons;
 import com.intellij.codeInsight.completion.CompletionUtil;
 import com.intellij.codeInsight.daemon.quickFix.CreateFileFix;
+import com.intellij.codeInsight.lookup.LookupElementBuilder;
 import com.intellij.codeInspection.LocalQuickFix;
 import com.intellij.openapi.util.TextRange;
 import com.intellij.psi.*;
@@ -44,7 +43,8 @@ public class GoImportReference extends FileReference {
   @Override
   protected Object createLookupItem(PsiElement candidate) {
     if (candidate instanceof PsiDirectory) {
-      return GoCompletionUtil.createDirectoryLookupElement((PsiDirectory)candidate);
+      return LookupElementBuilder.createWithSmartPointer(((PsiDirectory)candidate).getName(), (PsiDirectory)candidate).withIcon(GoIcons.DIRECTORY)
+        .withInsertHandler(null);
     }
     return super.createLookupItem(candidate);
   }
@@ -122,11 +122,6 @@ public class GoImportReference extends FileReference {
   @Override
   public LocalQuickFix[] getQuickFixes() {
     List<LocalQuickFix> result = ContainerUtil.newArrayList();
-    FileReferenceSet fileReferenceSet = getFileReferenceSet();
-    if (fileReferenceSet instanceof GoImportReferenceSet && !((GoImportReferenceSet)fileReferenceSet).isRelativeImport()
-        && !fileReferenceSet.isAbsolutePathReference()) {
-      result.add(new GoGetPackageFix(fileReferenceSet.getPathString()));
-    }
 
     String fileNameToCreate = getFileNameToCreate();
     for (PsiFileSystemItem context : getContexts()) {

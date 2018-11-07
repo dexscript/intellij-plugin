@@ -61,6 +61,11 @@
                                  implementationClass="com.dexscript.psi.impl.manipulator.GoStringManipulator"/>
         <lang.foldingBuilder language="go" implementationClass="com.goide.editor.GoFoldingBuilder"/>
         <lang.formatter language="go" implementationClass="com.goide.formatter.GoFormattingModelBuilder"/>
+        <codeInsight.lineMarkerProvider language="go" implementationClass="com.goide.marker.GoRecursiveCallMarkerProvider"/>
+        <codeStyleSettingsProvider implementation="com.goide.formatter.settings.GoCodeStyleSettingsProvider"/>
+        <langCodeStyleSettingsProvider implementation="com.goide.formatter.settings.GoLanguageCodeStyleSettingsProvider"/>
+        <!--<projectConfigurable id="go" groupId="language" provider="com.goide.configuration.GoConfigurableProvider"-->
+                             <!--dynamic="true" bundle="com.goide.GoBundle"/>-->
     </extensions>
 
     <actions>
