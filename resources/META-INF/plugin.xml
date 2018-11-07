@@ -15,10 +15,10 @@
   -->
 
 <idea-plugin>
-    <id>com.your.company.unique.plugin.id</id>
-    <name>Plugin display name here</name>
+    <id>com.dexscript.intellij</id>
+    <name>dexscript</name>
     <version>1.0</version>
-    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+    <vendor email="taowen@gmail.com" url="http://www.dexscript.com">taowen</vendor>
 
     <description><![CDATA[
       Enter short description for your plugin here.<br>
@@ -41,19 +41,29 @@
     -->
 
     <module-components>
-    <component>
-      <implementation-class>com.goide.project.GoModuleLibrariesInitializer</implementation-class>
-    </component>
-  </module-components>
+        <component>
+            <implementation-class>com.goide.project.GoModuleLibrariesInitializer</implementation-class>
+        </component>
+    </module-components>
 
-  <extensions defaultExtensionNs="com.intellij">
-    <lang.parserDefinition language="go" implementationClass="com.goide.GoParserDefinition"/>
-    <fileTypeFactory implementation="com.goide.GoFileTypeFactory"/>
-    <lang.syntaxHighlighterFactory language="go" implementationClass="com.goide.highlighting.GoSyntaxHighlighterFactory"/>
-    <lang.psiStructureViewFactory language="go" implementationClass="com.goide.tree.GoStructureViewFactory"/>
-  </extensions>
+    <extensions defaultExtensionNs="com.intellij">
+        <lang.parserDefinition language="go" implementationClass="com.goide.GoParserDefinition"/>
+        <fileTypeFactory implementation="com.goide.GoFileTypeFactory"/>
+        <lang.syntaxHighlighterFactory language="go"
+                                       implementationClass="com.goide.highlighting.GoSyntaxHighlighterFactory"/>
+        <lang.psiStructureViewFactory language="go" implementationClass="com.goide.tree.GoStructureViewFactory"/>
+        <extendWordSelectionHandler implementation="com.goide.editor.GoWordSelectioner"/>
+        <lang.braceMatcher language="go" implementationClass="com.goide.editor.GoBraceMatcher"/>
+        <quoteHandler fileType="Go" className="com.goide.editor.GoQuoteHandler"/>
+        <editorTypedHandler implementationClass="com.goide.editor.GoTypedHandler"/>
+        <lang.commenter language="go" implementationClass="com.goide.GoCommenter"/>
+        <lang.elementManipulator forClass="com.dexscript.psi.impl.GoStringLiteralImpl"
+                                 implementationClass="com.dexscript.psi.impl.manipulator.GoStringManipulator"/>
+        <lang.foldingBuilder language="go" implementationClass="com.goide.editor.GoFoldingBuilder"/>
+        <lang.formatter language="go" implementationClass="com.goide.formatter.GoFormattingModelBuilder"/>
+    </extensions>
 
-  <actions>
-  </actions>
+    <actions>
+    </actions>
 
-d</idea-plugin>
+</idea-plugin>
