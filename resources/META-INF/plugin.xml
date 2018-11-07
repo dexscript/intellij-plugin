@@ -47,7 +47,7 @@
     </module-components>
 
     <extensions defaultExtensionNs="com.intellij">
-        <lang.parserDefinition language="go" implementationClass="com.goide.GoParserDefinition"/>
+        <lang.parserDefinition language="go" implementationClass="com.dexscript.parser.GoParserDefinition"/>
         <fileTypeFactory implementation="com.goide.GoFileTypeFactory"/>
         <lang.syntaxHighlighterFactory language="go"
                                        implementationClass="com.goide.highlighting.GoSyntaxHighlighterFactory"/>

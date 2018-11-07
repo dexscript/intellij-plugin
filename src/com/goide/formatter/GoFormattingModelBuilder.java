@@ -37,7 +37,7 @@ import org.jetbrains.annotations.Nullable;
 import java.util.Collections;
 import java.util.List;
 
-import static com.goide.GoParserDefinition.*;
+import static com.dexscript.parser.GoParserDefinition.*;
 import static com.dexscript.parser.GoTypes.*;
 
 public class GoFormattingModelBuilder implements FormattingModelBuilder {

@@ -26,7 +26,7 @@ import com.goide.sdk.GoSdkUtil;
 import com.goide.stubs.*;
 import com.dexscript.stubs.index.GoIdFilter;
 import com.dexscript.stubs.index.GoMethodIndex;
-import com.goide.util.GoStringLiteralEscaper;
+import com.dexscript.parser.GoStringLiteralEscaper;
 import com.goide.util.GoUtil;
 import com.intellij.codeInsight.highlighting.ReadWriteAccessDetector;
 import com.intellij.diagnostic.AttachmentFactory;

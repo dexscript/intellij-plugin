@@ -21,7 +21,7 @@ import org.jetbrains.annotations.*;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiLanguageInjectionHost;
 import com.dexscript.psi.impl.GoStringLiteralImpl;
-import com.goide.util.GoStringLiteralEscaper;
+import com.dexscript.parser.GoStringLiteralEscaper;
 
 public interface GoStringLiteral extends GoExpression, PsiLanguageInjectionHost {
 

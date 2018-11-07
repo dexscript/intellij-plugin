@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.goide.util;
+package com.dexscript.parser;
 
 import com.dexscript.psi.GoStringLiteral;
 import com.intellij.openapi.util.TextRange;

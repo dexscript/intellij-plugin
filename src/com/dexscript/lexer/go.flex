@@ -2,7 +2,7 @@ package com.goide.lexer;
 
 import com.intellij.psi.tree.IElementType;
 import static com.intellij.psi.TokenType.BAD_CHARACTER;
-import static com.goide.GoParserDefinition.*;
+import static com.dexscript.parser.GoParserDefinition.*;
 
 %%
 

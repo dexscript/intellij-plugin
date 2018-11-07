@@ -16,7 +16,7 @@
 
 package com.goide.parser;
 
-import com.goide.GoParserDefinition;
+import com.dexscript.parser.GoParserDefinition;
 import com.intellij.util.indexing.IndexingDataKeys;
 
 public class GoParseAndConsumeTest extends GoParserTestBase {

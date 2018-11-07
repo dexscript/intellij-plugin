@@ -16,7 +16,6 @@
 
 package com.dexscript.parser;
 
-import com.goide.GoParserDefinition;
 import com.intellij.lang.LighterASTNode;
 import com.intellij.lang.PsiBuilder;
 import com.intellij.lang.WhitespacesBinders;

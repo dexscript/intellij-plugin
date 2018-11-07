@@ -16,6 +16,7 @@
 
 package com.goide;
 
+import com.dexscript.parser.GoParserDefinition;
 import com.dexscript.psi.GoFile;
 import com.intellij.lexer.Lexer;
 import com.intellij.psi.PsiFile;

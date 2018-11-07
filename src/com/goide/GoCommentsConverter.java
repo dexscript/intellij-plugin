@@ -16,6 +16,7 @@
 
 package com.goide;
 
+import com.dexscript.parser.GoParserDefinition;
 import com.intellij.openapi.util.text.StringUtil;
 import com.intellij.psi.PsiComment;
 import com.intellij.psi.tree.IElementType;
