@@ -26,7 +26,7 @@ import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiElementVisitor;
 import com.dexscript.psi.GoPsiTreeUtil;
 import static com.dexscript.parser.GoTypes.*;
-import com.goide.stubs.GoConstSpecStub;
+import com.dexscript.stubs.GoConstSpecStub;
 import com.intellij.psi.stubs.IStubElementType;
 
 public class GoConstSpecImpl extends GoStubbedElementImpl<GoConstSpecStub> implements GoConstSpec {

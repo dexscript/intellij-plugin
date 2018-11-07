@@ -20,7 +20,7 @@ package com.dexscript.psi;
 import org.jetbrains.annotations.*;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.StubBasedPsiElement;
-import com.goide.stubs.GoMethodSpecStub;
+import com.dexscript.stubs.GoMethodSpecStub;
 import com.intellij.psi.ResolveState;
 
 public interface GoMethodSpec extends GoNamedSignatureOwner, StubBasedPsiElement<GoMethodSpecStub> {

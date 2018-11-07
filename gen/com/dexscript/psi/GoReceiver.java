@@ -20,7 +20,7 @@ package com.dexscript.psi;
 import org.jetbrains.annotations.*;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.StubBasedPsiElement;
-import com.goide.stubs.GoReceiverStub;
+import com.dexscript.stubs.GoReceiverStub;
 import com.intellij.psi.ResolveState;
 
 public interface GoReceiver extends GoNamedElement, StubBasedPsiElement<GoReceiverStub> {

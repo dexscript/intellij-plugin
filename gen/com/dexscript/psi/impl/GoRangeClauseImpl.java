@@ -27,7 +27,7 @@ import com.intellij.psi.PsiElementVisitor;
 import com.dexscript.psi.GoPsiTreeUtil;
 import static com.dexscript.parser.GoTypes.*;
 
-import com.goide.stubs.GoVarSpecStub;
+import com.dexscript.stubs.GoVarSpecStub;
 import com.intellij.psi.stubs.IStubElementType;
 
 public class GoRangeClauseImpl extends GoVarSpecImpl implements GoRangeClause {

@@ -26,7 +26,7 @@ import com.intellij.psi.PsiElementVisitor;
 
 import static com.dexscript.parser.GoTypes.*;
 
-import com.goide.stubs.GoVarSpecStub;
+import com.dexscript.stubs.GoVarSpecStub;
 import com.intellij.psi.stubs.IStubElementType;
 
 public class GoShortVarDeclarationImpl extends GoVarSpecImpl implements GoShortVarDeclaration {

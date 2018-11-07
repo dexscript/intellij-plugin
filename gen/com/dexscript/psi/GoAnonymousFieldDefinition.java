@@ -20,7 +20,7 @@ package com.dexscript.psi;
 import org.jetbrains.annotations.*;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.StubBasedPsiElement;
-import com.goide.stubs.GoAnonymousFieldDefinitionStub;
+import com.dexscript.stubs.GoAnonymousFieldDefinitionStub;
 import com.intellij.psi.ResolveState;
 
 public interface GoAnonymousFieldDefinition extends GoNamedElement, StubBasedPsiElement<GoAnonymousFieldDefinitionStub> {

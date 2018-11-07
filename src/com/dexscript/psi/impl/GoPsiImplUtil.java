@@ -17,14 +17,15 @@
 package com.dexscript.psi.impl;
 
 import com.dexscript.psi.*;
+import com.dexscript.stubs.*;
 import com.goide.GoConstants;
 import com.dexscript.parser.GoTypes;
 import com.dexscript.psi.impl.imports.GoImportReferenceSet;
 import com.goide.sdk.GoPackageUtil;
 import com.goide.sdk.GoSdkUtil;
 import com.goide.stubs.*;
-import com.goide.stubs.index.GoIdFilter;
-import com.goide.stubs.index.GoMethodIndex;
+import com.dexscript.stubs.index.GoIdFilter;
+import com.dexscript.stubs.index.GoMethodIndex;
 import com.goide.util.GoStringLiteralEscaper;
 import com.goide.util.GoUtil;
 import com.intellij.codeInsight.highlighting.ReadWriteAccessDetector;

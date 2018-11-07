@@ -19,7 +19,7 @@ package com.dexscript.psi;
 
 import org.jetbrains.annotations.*;
 import com.intellij.psi.StubBasedPsiElement;
-import com.goide.stubs.GoSignatureStub;
+import com.dexscript.stubs.GoSignatureStub;
 
 public interface GoSignature extends GoCompositeElement, StubBasedPsiElement<GoSignatureStub> {
 

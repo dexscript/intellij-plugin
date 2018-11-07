@@ -21,7 +21,7 @@ import java.util.List;
 import org.jetbrains.annotations.*;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.StubBasedPsiElement;
-import com.goide.stubs.GoConstSpecStub;
+import com.dexscript.stubs.GoConstSpecStub;
 
 public interface GoConstSpec extends GoCompositeElement, StubBasedPsiElement<GoConstSpecStub> {
 

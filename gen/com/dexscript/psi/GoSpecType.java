@@ -20,7 +20,7 @@ package com.dexscript.psi;
 import org.jetbrains.annotations.*;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.StubBasedPsiElement;
-import com.goide.stubs.GoTypeStub;
+import com.dexscript.stubs.GoTypeStub;
 
 public interface GoSpecType extends GoType, StubBasedPsiElement<GoTypeStub> {
 

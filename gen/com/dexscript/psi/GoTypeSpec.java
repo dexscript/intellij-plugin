@@ -21,7 +21,7 @@ import java.util.List;
 import org.jetbrains.annotations.*;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.StubBasedPsiElement;
-import com.goide.stubs.GoTypeSpecStub;
+import com.dexscript.stubs.GoTypeSpecStub;
 import com.intellij.psi.ResolveState;
 
 public interface GoTypeSpec extends GoNamedElement, StubBasedPsiElement<GoTypeSpecStub> {

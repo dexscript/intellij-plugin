@@ -20,7 +20,7 @@ package com.dexscript.psi;
 import org.jetbrains.annotations.*;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.StubBasedPsiElement;
-import com.goide.stubs.GoResultStub;
+import com.dexscript.stubs.GoResultStub;
 
 public interface GoResult extends GoCompositeElement, StubBasedPsiElement<GoResultStub> {
 

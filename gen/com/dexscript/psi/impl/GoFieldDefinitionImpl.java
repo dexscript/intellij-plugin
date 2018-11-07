@@ -25,7 +25,7 @@ import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiElementVisitor;
 
 import static com.dexscript.parser.GoTypes.*;
-import com.goide.stubs.GoFieldDefinitionStub;
+import com.dexscript.stubs.GoFieldDefinitionStub;
 import com.intellij.psi.stubs.IStubElementType;
 
 public class GoFieldDefinitionImpl extends GoNamedElementImpl<GoFieldDefinitionStub> implements GoFieldDefinition {

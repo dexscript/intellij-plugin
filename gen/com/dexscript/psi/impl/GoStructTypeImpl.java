@@ -27,7 +27,7 @@ import com.intellij.psi.PsiElementVisitor;
 import com.dexscript.psi.GoPsiTreeUtil;
 import static com.dexscript.parser.GoTypes.*;
 
-import com.goide.stubs.GoTypeStub;
+import com.dexscript.stubs.GoTypeStub;
 import com.intellij.psi.stubs.IStubElementType;
 
 public class GoStructTypeImpl extends GoTypeImpl implements GoStructType {

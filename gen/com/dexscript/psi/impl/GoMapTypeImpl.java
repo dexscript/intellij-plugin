@@ -30,7 +30,7 @@ import com.intellij.psi.PsiElementVisitor;
 
 import static com.dexscript.parser.GoTypes.*;
 
-import com.goide.stubs.GoTypeStub;
+import com.dexscript.stubs.GoTypeStub;
 import com.intellij.psi.stubs.IStubElementType;
 
 public class GoMapTypeImpl extends GoTypeImpl implements GoMapType {

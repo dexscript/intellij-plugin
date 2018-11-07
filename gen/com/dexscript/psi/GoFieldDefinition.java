@@ -20,7 +20,7 @@ package com.dexscript.psi;
 import org.jetbrains.annotations.*;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.StubBasedPsiElement;
-import com.goide.stubs.GoFieldDefinitionStub;
+import com.dexscript.stubs.GoFieldDefinitionStub;
 
 public interface GoFieldDefinition extends GoNamedElement, StubBasedPsiElement<GoFieldDefinitionStub> {
 

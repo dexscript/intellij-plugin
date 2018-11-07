@@ -25,8 +25,7 @@ import com.intellij.lang.ASTNode;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiElementVisitor;
 import com.dexscript.psi.GoPsiTreeUtil;
-import com.goide.stubs.GoTypeSpecStub;
-import com.dexscript.psi.*;
+import com.dexscript.stubs.GoTypeSpecStub;
 import com.intellij.psi.ResolveState;
 import com.intellij.psi.stubs.IStubElementType;
 

@@ -18,7 +18,7 @@ package com.dexscript.psi.impl;
 
 import com.dexscript.psi.GoFunctionOrMethodDeclaration;
 import com.dexscript.psi.GoType;
-import com.goide.stubs.GoFunctionOrMethodDeclarationStub;
+import com.dexscript.stubs.GoFunctionOrMethodDeclarationStub;
 import com.intellij.lang.ASTNode;
 import com.intellij.psi.ResolveState;
 import com.intellij.psi.stubs.IStubElementType;

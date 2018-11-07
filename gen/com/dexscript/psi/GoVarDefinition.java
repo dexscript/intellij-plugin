@@ -20,7 +20,7 @@ package com.dexscript.psi;
 import org.jetbrains.annotations.*;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.StubBasedPsiElement;
-import com.goide.stubs.GoVarDefinitionStub;
+import com.dexscript.stubs.GoVarDefinitionStub;
 import com.intellij.psi.PsiReference;
 import com.intellij.psi.ResolveState;
 

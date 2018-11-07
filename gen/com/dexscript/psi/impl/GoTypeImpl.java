@@ -22,8 +22,7 @@ import org.jetbrains.annotations.*;
 import com.intellij.lang.ASTNode;
 import com.intellij.psi.PsiElementVisitor;
 import com.dexscript.psi.GoPsiTreeUtil;
-import com.goide.stubs.GoTypeStub;
-import com.dexscript.psi.*;
+import com.dexscript.stubs.GoTypeStub;
 import com.intellij.psi.stubs.IStubElementType;
 
 public class GoTypeImpl extends GoStubbedElementImpl<GoTypeStub> implements GoType {

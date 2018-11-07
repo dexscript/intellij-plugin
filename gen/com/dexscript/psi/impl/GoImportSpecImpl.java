@@ -24,7 +24,7 @@ import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiElementVisitor;
 import com.dexscript.psi.GoPsiTreeUtil;
 import static com.dexscript.parser.GoTypes.*;
-import com.goide.stubs.GoImportSpecStub;
+import com.dexscript.stubs.GoImportSpecStub;
 import com.intellij.psi.stubs.IStubElementType;
 
 public class GoImportSpecImpl extends GoNamedElementImpl<GoImportSpecStub> implements GoImportSpec {

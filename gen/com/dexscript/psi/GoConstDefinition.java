@@ -20,7 +20,7 @@ package com.dexscript.psi;
 import org.jetbrains.annotations.*;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.StubBasedPsiElement;
-import com.goide.stubs.GoConstDefinitionStub;
+import com.dexscript.stubs.GoConstDefinitionStub;
 import com.intellij.psi.ResolveState;
 
 public interface GoConstDefinition extends GoNamedElement, StubBasedPsiElement<GoConstDefinitionStub> {

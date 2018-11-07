@@ -22,7 +22,7 @@ import com.intellij.psi.tree.IElementType;
 import com.intellij.psi.PsiElement;
 import com.intellij.lang.ASTNode;
 import com.dexscript.psi.GoCompositeElementType;
-import com.goide.stubs.GoElementTypeFactory;
+import com.dexscript.stubs.GoElementTypeFactory;
 import com.dexscript.psi.GoTokenType;
 
 public interface GoTypes {

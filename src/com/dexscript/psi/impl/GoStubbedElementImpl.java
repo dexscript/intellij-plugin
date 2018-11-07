@@ -18,7 +18,7 @@ package com.dexscript.psi.impl;
 
 import com.dexscript.psi.GoCompositeElement;
 import com.dexscript.psi.GoFile;
-import com.goide.stubs.TextHolder;
+import com.dexscript.stubs.TextHolder;
 import com.intellij.extapi.psi.StubBasedPsiElementBase;
 import com.intellij.lang.ASTNode;
 import com.intellij.psi.PsiElement;

@@ -26,7 +26,7 @@ import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiElementVisitor;
 import com.dexscript.psi.GoPsiTreeUtil;
 import static com.dexscript.parser.GoTypes.*;
-import com.goide.stubs.GoParameterDeclarationStub;
+import com.dexscript.stubs.GoParameterDeclarationStub;
 import com.intellij.psi.stubs.IStubElementType;
 
 public class GoParameterDeclarationImpl extends GoStubbedElementImpl<GoParameterDeclarationStub> implements GoParameterDeclaration {

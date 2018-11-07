@@ -20,7 +20,7 @@ package com.dexscript.psi;
 import org.jetbrains.annotations.*;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.StubBasedPsiElement;
-import com.goide.stubs.GoPackageClauseStub;
+import com.dexscript.stubs.GoPackageClauseStub;
 
 public interface GoPackageClause extends GoCompositeElement, StubBasedPsiElement<GoPackageClauseStub> {
 

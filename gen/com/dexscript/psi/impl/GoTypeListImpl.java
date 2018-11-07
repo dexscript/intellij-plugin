@@ -26,8 +26,7 @@ import com.dexscript.psi.GoVisitor;
 import org.jetbrains.annotations.*;
 import com.intellij.lang.ASTNode;
 import com.intellij.psi.PsiElementVisitor;
-import com.dexscript.psi.*;
-import com.goide.stubs.GoTypeStub;
+import com.dexscript.stubs.GoTypeStub;
 import com.intellij.psi.stubs.IStubElementType;
 
 public class GoTypeListImpl extends GoTypeImpl implements GoTypeList {

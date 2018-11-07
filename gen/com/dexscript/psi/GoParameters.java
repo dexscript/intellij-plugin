@@ -21,7 +21,7 @@ import java.util.List;
 import org.jetbrains.annotations.*;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.StubBasedPsiElement;
-import com.goide.stubs.GoParametersStub;
+import com.dexscript.stubs.GoParametersStub;
 
 public interface GoParameters extends GoCompositeElement, StubBasedPsiElement<GoParametersStub> {
 

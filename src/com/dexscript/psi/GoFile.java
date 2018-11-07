@@ -17,16 +17,16 @@
 package com.dexscript.psi;
 
 import com.dexscript.psi.impl.GoPsiImplUtil;
+import com.dexscript.stubs.types.*;
 import com.goide.GoConstants;
 import com.goide.GoFileType;
 import com.goide.GoLanguage;
 import com.dexscript.parser.GoTypes;
 import com.goide.sdk.GoPackageUtil;
 import com.goide.sdk.GoSdkUtil;
-import com.goide.stubs.GoConstSpecStub;
-import com.goide.stubs.GoFileStub;
-import com.goide.stubs.GoVarSpecStub;
-import com.goide.stubs.types.*;
+import com.dexscript.stubs.GoConstSpecStub;
+import com.dexscript.stubs.GoFileStub;
+import com.dexscript.stubs.GoVarSpecStub;
 import com.goide.util.GoUtil;
 import com.intellij.extapi.psi.PsiFileBase;
 import com.intellij.openapi.fileTypes.FileType;
@@ -140,7 +140,7 @@ public class GoFile extends PsiFileBase {
   public List<GoTypeSpec> getTypes() {
     return CachedValuesManager.getCachedValue(this, () -> {
       StubElement<GoFile> stub = getStub();
-      List<GoTypeSpec> types = stub != null ? getChildrenByType(stub, GoTypes.TYPE_SPEC, GoTypeSpecStubElementType.ARRAY_FACTORY) 
+      List<GoTypeSpec> types = stub != null ? getChildrenByType(stub, GoTypes.TYPE_SPEC, GoTypeSpecStubElementType.ARRAY_FACTORY)
                                             : calcTypes();
       return CachedValueProvider.Result.create(types, this);
     });
@@ -150,7 +150,7 @@ public class GoFile extends PsiFileBase {
   public List<GoImportSpec> getImports() {
     return CachedValuesManager.getCachedValue(this, () -> {
       StubElement<GoFile> stub = getStub();
-      List<GoImportSpec> imports = stub != null ? getChildrenByType(stub, GoTypes.IMPORT_SPEC, GoImportSpecStubElementType.ARRAY_FACTORY) 
+      List<GoImportSpec> imports = stub != null ? getChildrenByType(stub, GoTypes.IMPORT_SPEC, GoImportSpecStubElementType.ARRAY_FACTORY)
                                                 : calcImports();
       return CachedValueProvider.Result.create(imports, this);
     });

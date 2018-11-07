@@ -24,7 +24,7 @@ import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiElementVisitor;
 import com.dexscript.psi.GoPsiTreeUtil;
 import static com.dexscript.parser.GoTypes.*;
-import com.goide.stubs.GoResultStub;
+import com.dexscript.stubs.GoResultStub;
 import com.intellij.psi.stubs.IStubElementType;
 
 public class GoResultImpl extends GoStubbedElementImpl<GoResultStub> implements GoResult {

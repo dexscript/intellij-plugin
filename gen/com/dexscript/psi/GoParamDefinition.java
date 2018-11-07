@@ -20,7 +20,7 @@ package com.dexscript.psi;
 import org.jetbrains.annotations.*;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.StubBasedPsiElement;
-import com.goide.stubs.GoParamDefinitionStub;
+import com.dexscript.stubs.GoParamDefinitionStub;
 
 public interface GoParamDefinition extends GoNamedElement, StubBasedPsiElement<GoParamDefinitionStub> {
 

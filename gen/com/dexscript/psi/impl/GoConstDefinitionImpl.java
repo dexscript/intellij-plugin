@@ -24,7 +24,7 @@ import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiElementVisitor;
 
 import static com.dexscript.parser.GoTypes.*;
-import com.goide.stubs.GoConstDefinitionStub;
+import com.dexscript.stubs.GoConstDefinitionStub;
 import com.intellij.psi.ResolveState;
 import com.intellij.psi.stubs.IStubElementType;
 
