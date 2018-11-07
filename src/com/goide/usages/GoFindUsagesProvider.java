@@ -18,7 +18,7 @@ package com.goide.usages;
 
 import com.goide.GoParserDefinition;
 import com.goide.GoTypes;
-import com.goide.lexer.GoLexer;
+import com.dexscript.lexer.GoLexer;
 import com.goide.psi.*;
 import com.intellij.lang.HelpID;
 import com.intellij.lang.cacheBuilder.DefaultWordsScanner;

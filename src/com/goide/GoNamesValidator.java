@@ -16,7 +16,7 @@
 
 package com.goide;
 
-import com.goide.lexer.GoLexer;
+import com.dexscript.lexer.GoLexer;
 import com.intellij.lang.refactoring.NamesValidator;
 import com.intellij.openapi.project.Project;
 import com.intellij.psi.tree.IElementType;

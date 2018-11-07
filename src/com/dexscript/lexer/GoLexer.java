@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.goide.lexer;
+package com.dexscript.lexer;
 
 import com.goide.GoParserDefinition;
 import com.intellij.lexer.FlexAdapter;
