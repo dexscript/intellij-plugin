@@ -20,7 +20,7 @@ import com.dexscript.psi.*;
 import com.goide.GoConstants;
 import com.goide.GoDocumentationProvider;
 import com.goide.project.GoVendoringUtil;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.dexscript.psi.impl.GoTypeUtil;
 import com.goide.refactor.GoRefactoringUtil;

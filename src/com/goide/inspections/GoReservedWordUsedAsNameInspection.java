@@ -17,7 +17,7 @@
 package com.goide.inspections;
 
 import com.dexscript.psi.*;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.dexscript.psi.impl.GoTypeReference;
 import com.goide.quickfix.GoRenameQuickFix;
 import com.goide.sdk.GoSdkUtil;

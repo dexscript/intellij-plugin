@@ -18,7 +18,7 @@ package com.goide.inspections.unresolved;
 
 import com.dexscript.psi.*;
 import com.goide.inspections.GoInspectionBase;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.dexscript.psi.impl.GoVarProcessor;
 import com.goide.quickfix.GoDeleteVarDefinitionQuickFix;
 import com.goide.quickfix.GoRenameToBlankQuickFix;

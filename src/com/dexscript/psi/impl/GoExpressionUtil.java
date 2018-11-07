@@ -17,7 +17,7 @@
 package com.dexscript.psi.impl;
 
 import com.dexscript.psi.*;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.intellij.lang.ASTNode;
 import com.intellij.openapi.util.Comparing;
 import com.intellij.openapi.util.Trinity;

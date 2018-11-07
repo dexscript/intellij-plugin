@@ -29,7 +29,7 @@ import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiElementVisitor;
 
 import static com.goide.GoTypes.*;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.goide.stubs.GoTypeStub;
 import com.intellij.psi.stubs.IStubElementType;
 

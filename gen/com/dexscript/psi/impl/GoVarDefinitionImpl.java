@@ -28,7 +28,7 @@ import com.intellij.psi.PsiElementVisitor;
 
 import static com.goide.GoTypes.*;
 import com.goide.stubs.GoVarDefinitionStub;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.intellij.psi.PsiReference;
 import com.intellij.psi.ResolveState;
 import com.intellij.psi.stubs.IStubElementType;

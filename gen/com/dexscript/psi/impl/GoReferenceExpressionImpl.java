@@ -25,7 +25,7 @@ import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiElementVisitor;
 
 import static com.goide.GoTypes.*;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.intellij.codeInsight.highlighting.ReadWriteAccessDetector.Access;
 
 public class GoReferenceExpressionImpl extends GoExpressionImpl implements GoReferenceExpression {

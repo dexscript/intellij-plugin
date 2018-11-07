@@ -26,7 +26,7 @@ import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiElementVisitor;
 
 import static com.goide.GoTypes.*;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.intellij.psi.PsiReference;
 
 public class GoFieldNameImpl extends GoCompositeElementImpl implements GoFieldName {

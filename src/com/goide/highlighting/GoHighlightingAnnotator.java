@@ -17,7 +17,7 @@
 package com.goide.highlighting;
 
 import com.dexscript.psi.*;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.dexscript.psi.impl.GoReferenceBase;
 import com.intellij.lang.annotation.AnnotationHolder;

@@ -25,7 +25,7 @@ import com.intellij.lang.ASTNode;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiElementVisitor;
 import com.dexscript.psi.GoPsiTreeUtil;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 
 public class GoBinaryExprImpl extends GoExpressionImpl implements GoBinaryExpr {
 

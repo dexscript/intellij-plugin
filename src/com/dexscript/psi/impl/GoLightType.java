@@ -17,7 +17,7 @@
 package com.dexscript.psi.impl;
 
 import com.dexscript.psi.*;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.goide.stubs.GoTypeStub;
 import com.intellij.openapi.util.text.StringUtil;
 import com.intellij.psi.PsiElement;

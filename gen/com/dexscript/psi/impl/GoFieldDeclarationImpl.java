@@ -24,7 +24,7 @@ import org.jetbrains.annotations.*;
 import com.intellij.lang.ASTNode;
 import com.intellij.psi.PsiElementVisitor;
 import com.dexscript.psi.GoPsiTreeUtil;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 
 public class GoFieldDeclarationImpl extends GoCompositeElementImpl implements GoFieldDeclaration {
 

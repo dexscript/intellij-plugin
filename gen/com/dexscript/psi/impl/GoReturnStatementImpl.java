@@ -26,7 +26,7 @@ import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiElementVisitor;
 import com.dexscript.psi.GoPsiTreeUtil;
 import static com.goide.GoTypes.*;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 
 public class GoReturnStatementImpl extends GoStatementImpl implements GoReturnStatement {
 

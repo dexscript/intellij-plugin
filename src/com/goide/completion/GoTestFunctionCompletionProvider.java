@@ -18,7 +18,7 @@ package com.goide.completion;
 
 import com.dexscript.psi.*;
 import com.goide.GoConstants;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.dexscript.psi.impl.GoElementFactory;
 import com.goide.runconfig.testing.GoTestFunctionType;
 import com.goide.runconfig.testing.frameworks.gotest.GotestGenerateAction;

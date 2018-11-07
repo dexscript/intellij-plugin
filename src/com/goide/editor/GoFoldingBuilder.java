@@ -19,7 +19,7 @@ package com.goide.editor;
 import com.dexscript.psi.*;
 import com.goide.GoParserDefinition;
 import com.goide.GoTypes;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.intellij.codeInsight.folding.CodeFoldingSettings;
 import com.intellij.lang.ASTNode;
 import com.intellij.lang.folding.CustomFoldingBuilder;

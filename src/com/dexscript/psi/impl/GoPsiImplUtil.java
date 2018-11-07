@@ -19,7 +19,7 @@ package com.dexscript.psi.impl;
 import com.dexscript.psi.*;
 import com.goide.GoConstants;
 import com.goide.GoTypes;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.dexscript.psi.impl.imports.GoImportReferenceSet;
 import com.goide.runconfig.testing.GoTestFinder;
 import com.goide.sdk.GoPackageUtil;

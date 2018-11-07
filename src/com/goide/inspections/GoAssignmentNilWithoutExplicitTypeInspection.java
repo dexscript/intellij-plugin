@@ -18,7 +18,7 @@ package com.goide.inspections;
 
 import com.dexscript.psi.*;
 import com.goide.GoConstants;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.dexscript.psi.impl.GoReferenceExpressionImpl;
 import com.intellij.codeInspection.LocalInspectionToolSession;

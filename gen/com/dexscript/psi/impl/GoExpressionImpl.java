@@ -23,7 +23,7 @@ import com.dexscript.psi.GoVisitor;
 import org.jetbrains.annotations.*;
 import com.intellij.lang.ASTNode;
 import com.intellij.psi.PsiElementVisitor;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.intellij.psi.ResolveState;
 
 public class GoExpressionImpl extends GoCompositeElementImpl implements GoExpression {

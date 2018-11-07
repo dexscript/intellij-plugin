@@ -26,7 +26,7 @@ import com.intellij.psi.PsiElementVisitor;
 
 import static com.goide.GoTypes.*;
 import com.goide.stubs.GoParamDefinitionStub;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.intellij.psi.stubs.IStubElementType;
 
 public class GoParamDefinitionImpl extends GoNamedElementImpl<GoParamDefinitionStub> implements GoParamDefinition {

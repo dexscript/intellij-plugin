@@ -19,7 +19,7 @@ package com.goide;
 import com.dexscript.psi.*;
 import com.goide.editor.GoParameterInfoHandler;
 import com.goide.project.GoVendoringUtil;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.dexscript.psi.impl.GoCType;
 import com.dexscript.psi.impl.GoLightType;
 import com.dexscript.psi.impl.GoPsiImplUtil;

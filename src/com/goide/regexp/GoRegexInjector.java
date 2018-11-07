@@ -17,7 +17,7 @@
 package com.goide.regexp;
 
 import com.dexscript.psi.*;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.intellij.psi.*;
 import com.intellij.util.ObjectUtils;

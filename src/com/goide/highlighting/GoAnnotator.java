@@ -20,7 +20,7 @@ import com.dexscript.psi.*;
 import com.goide.GoConstants;
 import com.goide.GoTypes;
 import com.goide.inspections.GoInspectionUtil;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.dexscript.psi.impl.GoCType;
 import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.dexscript.psi.impl.GoTypeUtil;

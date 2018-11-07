@@ -24,7 +24,7 @@ import com.dexscript.psi.GoVisitor;
 import org.jetbrains.annotations.*;
 import com.intellij.lang.ASTNode;
 import com.intellij.psi.PsiElementVisitor;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 
 public class GoSwitchStatementImpl extends GoStatementImpl implements GoSwitchStatement {
 

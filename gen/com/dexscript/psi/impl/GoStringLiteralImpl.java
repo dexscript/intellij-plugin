@@ -25,7 +25,7 @@ import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiElementVisitor;
 
 import static com.goide.GoTypes.*;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.goide.util.GoStringLiteralEscaper;
 
 public class GoStringLiteralImpl extends GoExpressionImpl implements GoStringLiteral {

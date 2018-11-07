@@ -18,7 +18,7 @@ package com.goide.formatter;
 
 import com.dexscript.psi.*;
 import com.goide.GoLanguage;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.intellij.formatting.*;
 import com.intellij.formatting.alignment.AlignmentStrategy;
 import com.intellij.lang.ASTNode;

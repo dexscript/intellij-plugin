@@ -20,7 +20,7 @@ import com.dexscript.psi.*;
 import com.goide.GoLanguage;
 import com.goide.GoTypes;
 import com.goide.highlighting.GoSyntaxHighlighter;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.intellij.codeInsight.template.TemplateContextType;
 import com.intellij.openapi.fileTypes.SyntaxHighlighter;
 import com.intellij.psi.*;

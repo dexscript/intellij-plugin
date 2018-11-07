@@ -25,7 +25,7 @@ import com.intellij.psi.PsiElementVisitor;
 import com.dexscript.psi.GoPsiTreeUtil;
 import static com.goide.GoTypes.*;
 import com.goide.stubs.GoMethodSpecStub;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.intellij.psi.ResolveState;
 import com.intellij.psi.stubs.IStubElementType;
 

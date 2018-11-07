@@ -18,7 +18,7 @@ package com.dexscript.psi.impl;
 
 import com.dexscript.psi.*;
 import com.goide.GoConstants;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.goide.util.GoUtil;
 import com.intellij.openapi.module.ModuleUtilCore;
 import com.intellij.openapi.util.*;

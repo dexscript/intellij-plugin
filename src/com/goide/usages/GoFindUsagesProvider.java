@@ -20,7 +20,7 @@ import com.dexscript.psi.*;
 import com.goide.GoParserDefinition;
 import com.goide.GoTypes;
 import com.dexscript.lexer.GoLexer;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.intellij.lang.HelpID;
 import com.intellij.lang.cacheBuilder.DefaultWordsScanner;
 import com.intellij.lang.cacheBuilder.WordsScanner;

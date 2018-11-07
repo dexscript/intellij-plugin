@@ -17,7 +17,7 @@
 package com.goide.inspections;
 
 import com.dexscript.psi.*;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.goide.quickfix.GoDeleteAmpersandAndTypeInCompositeLitQuickFix;
 import com.intellij.codeInspection.CleanupLocalInspectionTool;
 import com.intellij.codeInspection.LocalInspectionToolSession;

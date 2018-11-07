@@ -19,7 +19,7 @@ package com.dexscript.psi.impl;
 import com.dexscript.psi.*;
 import com.goide.GoIcons;
 import com.goide.project.GoVendoringUtil;
-import com.goide.psi.*;
+import com.dexscript.psi.*;
 import com.goide.sdk.GoPackageUtil;
 import com.goide.stubs.GoNamedStub;
 import com.goide.util.GoUtil;
