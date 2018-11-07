@@ -16,13 +16,14 @@
 
 package com.goide.highlighting;
 
+import com.dexscript.psi.*;
 import com.goide.GoConstants;
 import com.goide.GoTypes;
 import com.goide.inspections.GoInspectionUtil;
 import com.goide.psi.*;
-import com.goide.psi.impl.GoCType;
-import com.goide.psi.impl.GoPsiImplUtil;
-import com.goide.psi.impl.GoTypeUtil;
+import com.dexscript.psi.impl.GoCType;
+import com.dexscript.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.impl.GoTypeUtil;
 import com.goide.quickfix.GoDeleteRangeQuickFix;
 import com.goide.quickfix.GoEmptySignatureQuickFix;
 import com.goide.quickfix.GoReplaceWithReturnStatementQuickFix;

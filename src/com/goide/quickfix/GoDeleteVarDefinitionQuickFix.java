@@ -16,8 +16,8 @@
 
 package com.goide.quickfix;
 
-import com.goide.psi.GoVarDefinition;
-import com.goide.psi.GoVarSpec;
+import com.dexscript.psi.GoVarDefinition;
+import com.dexscript.psi.GoVarSpec;
 import com.intellij.codeInspection.LocalQuickFixBase;
 import com.intellij.codeInspection.ProblemDescriptor;
 import com.intellij.openapi.project.Project;

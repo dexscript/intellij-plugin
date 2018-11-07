@@ -16,10 +16,10 @@
 
 package com.goide.runconfig.testing;
 
-import com.goide.psi.GoFile;
-import com.goide.psi.GoFunctionDeclaration;
-import com.goide.psi.GoFunctionOrMethodDeclaration;
-import com.goide.psi.GoMethodDeclaration;
+import com.dexscript.psi.GoFile;
+import com.dexscript.psi.GoFunctionDeclaration;
+import com.dexscript.psi.GoFunctionOrMethodDeclaration;
+import com.dexscript.psi.GoMethodDeclaration;
 import com.goide.runconfig.GoRunUtil;
 import com.goide.sdk.GoSdkService;
 import com.intellij.execution.actions.ConfigurationContext;

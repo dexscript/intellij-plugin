@@ -16,6 +16,7 @@
 
 package com.goide.editor;
 
+import com.dexscript.psi.*;
 import com.goide.GoParserDefinition;
 import com.goide.GoTypes;
 import com.goide.psi.*;

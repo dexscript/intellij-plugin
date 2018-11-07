@@ -16,8 +16,8 @@
 
 package com.goide.inspections.unresolved;
 
-import com.goide.psi.GoVarDeclaration;
-import com.goide.psi.GoVarDefinition;
+import com.dexscript.psi.GoVarDeclaration;
+import com.dexscript.psi.GoVarDefinition;
 import com.goide.quickfix.GoDeleteVarDefinitionQuickFix;
 import com.intellij.codeInspection.ProblemHighlightType;
 import com.intellij.codeInspection.ProblemsHolder;

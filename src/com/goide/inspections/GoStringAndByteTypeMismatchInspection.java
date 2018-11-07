@@ -16,10 +16,11 @@
 
 package com.goide.inspections;
 
+import com.dexscript.psi.*;
 import com.goide.GoTypes;
 import com.goide.psi.*;
-import com.goide.psi.impl.GoPsiImplUtil;
-import com.goide.psi.impl.GoTypeUtil;
+import com.dexscript.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.impl.GoTypeUtil;
 import com.goide.quickfix.GoConvertStringToByteQuickFix;
 import com.intellij.codeInspection.LocalInspectionToolSession;
 import com.intellij.codeInspection.LocalQuickFix;

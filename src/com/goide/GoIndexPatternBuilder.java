@@ -16,7 +16,7 @@
 
 package com.goide;
 
-import com.goide.psi.GoFile;
+import com.dexscript.psi.GoFile;
 import com.intellij.lexer.Lexer;
 import com.intellij.psi.PsiFile;
 import com.intellij.psi.impl.search.IndexPatternBuilder;

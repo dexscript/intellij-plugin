@@ -16,11 +16,11 @@
 
 package com.goide.inspections;
 
-import com.goide.psi.GoFieldDeclaration;
-import com.goide.psi.GoStructType;
-import com.goide.psi.GoTag;
-import com.goide.psi.GoVisitor;
-import com.goide.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.GoFieldDeclaration;
+import com.dexscript.psi.GoStructType;
+import com.dexscript.psi.GoTag;
+import com.dexscript.psi.GoVisitor;
+import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.intellij.codeInspection.LocalInspectionToolSession;
 import com.intellij.codeInspection.ProblemsHolder;
 import org.jetbrains.annotations.NotNull;

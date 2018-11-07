@@ -16,8 +16,8 @@
 
 package com.goide.runconfig.testing;
 
-import com.goide.psi.GoMethodDeclaration;
-import com.goide.psi.GoTypeSpec;
+import com.dexscript.psi.GoMethodDeclaration;
+import com.dexscript.psi.GoTypeSpec;
 import com.goide.stubs.index.GoFunctionIndex;
 import com.goide.stubs.index.GoIdFilter;
 import com.goide.stubs.index.GoTypesIndex;

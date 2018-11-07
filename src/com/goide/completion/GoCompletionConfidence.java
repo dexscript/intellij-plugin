@@ -16,7 +16,7 @@
 
 package com.goide.completion;
 
-import com.goide.psi.GoNamedElement;
+import com.dexscript.psi.GoNamedElement;
 import com.intellij.codeInsight.completion.CompletionConfidence;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiFile;

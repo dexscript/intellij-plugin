@@ -16,6 +16,7 @@
 
 package com.goide.inspections;
 
+import com.dexscript.psi.*;
 import com.goide.GoDocumentationProvider;
 import com.goide.psi.*;
 import com.goide.quickfix.GoDeleteQuickFix;

@@ -16,9 +16,10 @@
 
 package com.goide.editor.smart;
 
+import com.dexscript.psi.*;
 import com.goide.inspections.GoDeferGoInspection;
 import com.goide.psi.*;
-import com.goide.psi.impl.GoElementFactory;
+import com.dexscript.psi.impl.GoElementFactory;
 import com.intellij.lang.SmartEnterProcessorWithFixers;
 import com.intellij.openapi.editor.Editor;
 import com.intellij.openapi.project.Project;

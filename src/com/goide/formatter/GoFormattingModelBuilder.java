@@ -16,6 +16,7 @@
 
 package com.goide.formatter;
 
+import com.dexscript.psi.*;
 import com.goide.GoLanguage;
 import com.goide.psi.*;
 import com.intellij.formatting.*;
@@ -200,8 +201,8 @@ public class GoFormattingModelBuilder implements FormattingModelBuilder {
     }
 
     private static boolean isTopLevelDeclaration(@NotNull PsiElement element) {
-      return element instanceof GoPackageClause || element instanceof GoImportList 
-             || element instanceof GoTopLevelDeclaration && element.getParent() instanceof GoFile; 
+      return element instanceof GoPackageClause || element instanceof GoImportList
+             || element instanceof GoTopLevelDeclaration && element.getParent() instanceof GoFile;
     }
 
     private static Spacing lineBreak() {

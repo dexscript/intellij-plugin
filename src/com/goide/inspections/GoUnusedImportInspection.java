@@ -17,10 +17,10 @@
 package com.goide.inspections;
 
 import com.goide.codeInsight.imports.GoImportOptimizer;
-import com.goide.psi.GoFile;
-import com.goide.psi.GoImportSpec;
-import com.goide.psi.GoRecursiveVisitor;
-import com.goide.psi.impl.GoElementFactory;
+import com.dexscript.psi.GoFile;
+import com.dexscript.psi.GoImportSpec;
+import com.dexscript.psi.GoRecursiveVisitor;
+import com.dexscript.psi.impl.GoElementFactory;
 import com.goide.quickfix.GoRenameQuickFix;
 import com.intellij.codeInspection.*;
 import com.intellij.find.FindManager;

@@ -16,7 +16,7 @@
 
 package com.goide.runconfig;
 
-import com.goide.psi.GoFile;
+import com.dexscript.psi.GoFile;
 import com.intellij.execution.actions.ConfigurationContext;
 import com.intellij.execution.actions.RunConfigurationProducer;
 import com.intellij.execution.configurations.ConfigurationType;

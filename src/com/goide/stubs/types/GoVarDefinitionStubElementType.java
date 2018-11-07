@@ -16,9 +16,9 @@
 
 package com.goide.stubs.types;
 
-import com.goide.psi.GoFunctionOrMethodDeclaration;
-import com.goide.psi.GoVarDefinition;
-import com.goide.psi.impl.GoVarDefinitionImpl;
+import com.dexscript.psi.GoFunctionOrMethodDeclaration;
+import com.dexscript.psi.GoVarDefinition;
+import com.dexscript.psi.impl.GoVarDefinitionImpl;
 import com.goide.stubs.GoVarDefinitionStub;
 import com.intellij.lang.ASTNode;
 import com.intellij.psi.stubs.StubElement;

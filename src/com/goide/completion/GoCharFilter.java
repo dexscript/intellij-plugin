@@ -16,7 +16,7 @@
 
 package com.goide.completion;
 
-import com.goide.psi.GoImportString;
+import com.dexscript.psi.GoImportString;
 import com.intellij.codeInsight.lookup.CharFilter;
 import com.intellij.codeInsight.lookup.Lookup;
 import com.intellij.psi.util.PsiTreeUtil;

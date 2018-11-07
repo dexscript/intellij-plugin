@@ -16,8 +16,8 @@
 
 package com.goide.editor.surround;
 
-import com.goide.psi.GoBlock;
-import com.goide.psi.impl.GoElementFactory;
+import com.dexscript.psi.GoBlock;
+import com.dexscript.psi.impl.GoElementFactory;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.util.TextRange;
 import com.intellij.psi.PsiElement;

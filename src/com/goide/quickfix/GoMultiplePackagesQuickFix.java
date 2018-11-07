@@ -17,10 +17,10 @@
 package com.goide.quickfix;
 
 import com.goide.GoConstants;
-import com.goide.psi.GoFile;
-import com.goide.psi.GoPackageClause;
-import com.goide.psi.impl.GoElementFactory;
-import com.goide.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.GoFile;
+import com.dexscript.psi.GoPackageClause;
+import com.dexscript.psi.impl.GoElementFactory;
+import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.goide.runconfig.testing.GoTestFinder;
 import com.intellij.codeInspection.LocalQuickFixAndIntentionActionOnPsiElement;
 import com.intellij.openapi.Disposable;

@@ -18,9 +18,9 @@ package com.goide.completion;
 
 import com.goide.codeInsight.imports.GoImportPackageQuickFix;
 import com.goide.project.GoVendoringUtil;
-import com.goide.psi.GoFunctionDeclaration;
-import com.goide.psi.GoNamedElement;
-import com.goide.psi.GoTypeSpec;
+import com.dexscript.psi.GoFunctionDeclaration;
+import com.dexscript.psi.GoNamedElement;
+import com.dexscript.psi.GoTypeSpec;
 import com.intellij.codeInsight.completion.InsertHandler;
 import com.intellij.codeInsight.completion.InsertionContext;
 import com.intellij.codeInsight.lookup.LookupElement;

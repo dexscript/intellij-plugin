@@ -17,8 +17,8 @@
 package com.goide.stubs.types;
 
 import com.goide.GoLanguage;
-import com.goide.psi.GoBlock;
-import com.goide.psi.GoCompositeElement;
+import com.dexscript.psi.GoBlock;
+import com.dexscript.psi.GoCompositeElement;
 import com.intellij.lang.ASTNode;
 import com.intellij.psi.stubs.IStubElementType;
 import com.intellij.psi.stubs.IndexSink;

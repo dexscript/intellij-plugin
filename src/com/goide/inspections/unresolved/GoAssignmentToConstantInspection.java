@@ -17,9 +17,9 @@
 package com.goide.inspections.unresolved;
 
 import com.goide.inspections.GoInspectionBase;
-import com.goide.psi.GoConstDefinition;
-import com.goide.psi.GoReferenceExpression;
-import com.goide.psi.GoVisitor;
+import com.dexscript.psi.GoConstDefinition;
+import com.dexscript.psi.GoReferenceExpression;
+import com.dexscript.psi.GoVisitor;
 import com.intellij.codeInsight.highlighting.ReadWriteAccessDetector;
 import com.intellij.codeInspection.LocalInspectionToolSession;
 import com.intellij.codeInspection.ProblemsHolder;

@@ -16,12 +16,13 @@
 
 package com.goide.completion;
 
+import com.dexscript.psi.*;
 import com.goide.GoConstants;
 import com.goide.GoParserDefinition;
 import com.goide.GoTypes;
 import com.goide.psi.*;
-import com.goide.psi.impl.GoCachedReference;
-import com.goide.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.impl.GoCachedReference;
+import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.goide.runconfig.testing.GoTestFinder;
 import com.goide.sdk.GoPackageUtil;
 import com.intellij.codeInsight.completion.CompletionContributor;

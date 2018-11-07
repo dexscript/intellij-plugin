@@ -16,9 +16,9 @@
 
 package com.goide.marker;
 
-import com.goide.psi.GoCallExpr;
-import com.goide.psi.GoFunctionOrMethodDeclaration;
-import com.goide.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.GoCallExpr;
+import com.dexscript.psi.GoFunctionOrMethodDeclaration;
+import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.intellij.codeHighlighting.Pass;
 import com.intellij.codeInsight.daemon.LineMarkerInfo;
 import com.intellij.codeInsight.daemon.LineMarkerProvider;

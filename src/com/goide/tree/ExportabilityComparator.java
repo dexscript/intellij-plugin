@@ -16,7 +16,7 @@
 
 package com.goide.tree;
 
-import com.goide.psi.GoNamedElement;
+import com.dexscript.psi.GoNamedElement;
 import com.intellij.psi.PsiElement;
 import org.jetbrains.annotations.NotNull;
 

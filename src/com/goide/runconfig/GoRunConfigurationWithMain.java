@@ -16,7 +16,7 @@
 
 package com.goide.runconfig;
 
-import com.goide.psi.GoFile;
+import com.dexscript.psi.GoFile;
 import com.intellij.execution.configurations.ConfigurationFactory;
 import com.intellij.execution.configurations.RuntimeConfigurationError;
 import com.intellij.execution.configurations.RuntimeConfigurationException;

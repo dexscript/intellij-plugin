@@ -16,7 +16,7 @@
 
 package com.goide.inspections.unresolved;
 
-import com.goide.psi.GoReferenceExpressionBase;
+import com.dexscript.psi.GoReferenceExpressionBase;
 import com.goide.refactor.GoRefactoringUtil;
 import com.intellij.codeInsight.template.Template;
 import com.intellij.codeInsight.template.TemplateManager;

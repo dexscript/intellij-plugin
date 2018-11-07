@@ -17,10 +17,10 @@
 package com.goide.inspections.unresolved;
 
 import com.goide.inspections.GoInspectionBase;
-import com.goide.psi.GoLabelDefinition;
-import com.goide.psi.GoLabeledStatement;
-import com.goide.psi.GoStatement;
-import com.goide.psi.GoVisitor;
+import com.dexscript.psi.GoLabelDefinition;
+import com.dexscript.psi.GoLabeledStatement;
+import com.dexscript.psi.GoStatement;
+import com.dexscript.psi.GoVisitor;
 import com.goide.quickfix.GoRenameToBlankQuickFix;
 import com.intellij.codeInspection.*;
 import com.intellij.openapi.project.Project;

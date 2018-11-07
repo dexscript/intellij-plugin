@@ -16,11 +16,11 @@
 
 package com.goide.inspections;
 
-import com.goide.psi.GoPointerType;
-import com.goide.psi.GoReceiver;
-import com.goide.psi.GoReferenceExpression;
-import com.goide.psi.GoUnaryExpr;
-import com.goide.psi.GoVisitor;
+import com.dexscript.psi.GoPointerType;
+import com.dexscript.psi.GoReceiver;
+import com.dexscript.psi.GoReferenceExpression;
+import com.dexscript.psi.GoUnaryExpr;
+import com.dexscript.psi.GoVisitor;
 import com.intellij.codeInsight.highlighting.ReadWriteAccessDetector;
 import com.intellij.codeInspection.LocalInspectionToolSession;
 import com.intellij.codeInspection.ProblemsHolder;

@@ -16,7 +16,7 @@
 
 package com.goide;
 
-import com.goide.psi.GoFile;
+import com.dexscript.psi.GoFile;
 import com.goide.stubs.GoFileStub;
 import com.goide.stubs.index.GoPackagesIndex;
 import com.intellij.openapi.util.text.StringUtil;

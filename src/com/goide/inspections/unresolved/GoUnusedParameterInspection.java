@@ -16,6 +16,7 @@
 
 package com.goide.inspections.unresolved;
 
+import com.dexscript.psi.*;
 import com.goide.inspections.GoInspectionBase;
 import com.goide.psi.*;
 import com.goide.runconfig.testing.GoTestFinder;

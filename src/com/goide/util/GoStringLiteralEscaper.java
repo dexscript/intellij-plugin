@@ -16,7 +16,7 @@
 
 package com.goide.util;
 
-import com.goide.psi.GoStringLiteral;
+import com.dexscript.psi.GoStringLiteral;
 import com.intellij.openapi.util.TextRange;
 import com.intellij.psi.LiteralTextEscaper;
 import org.jetbrains.annotations.NotNull;

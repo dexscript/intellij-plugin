@@ -2,19 +2,19 @@
   parserClass='com.dexscript.parser.GoParser'
   classHeader='copyrightHeader.java'
 
-  implements='com.goide.psi.GoCompositeElement'
-  extends='com.goide.psi.impl.GoCompositeElementImpl'
+  implements='com.dexscript.psi.GoCompositeElement'
+  extends='com.dexscript.psi.impl.GoCompositeElementImpl'
   
   elementTypeHolderClass='com.goide.GoTypes'
-  elementTypeClass='com.goide.psi.GoCompositeElementType'
-  tokenTypeClass='com.goide.psi.GoTokenType'
-  psiTreeUtilClass='com.goide.psi.GoPsiTreeUtil'
+  elementTypeClass='com.dexscript.psi.GoCompositeElementType'
+  tokenTypeClass='com.dexscript.psi.GoTokenType'
+  psiTreeUtilClass='com.dexscript.psi.GoPsiTreeUtil'
   
   psiClassPrefix='Go'
   psiImplClassSuffix='Impl'
   psiPackage='com.goide.psi'
   psiImplPackage='com.goide.psi.impl'
-  psiImplUtilClass="com.goide.psi.impl.GoPsiImplUtil"
+  psiImplUtilClass="com.dexscript.psi.impl.GoPsiImplUtil"
   parserUtilClass="com.dexscript.parser.GoParserUtil"
 
   tokens=[
@@ -73,15 +73,15 @@
   extends("(Or|And|Add|Conversion|Mul|Selector|Conditional)Expr")=BinaryExpr
   extends(".*(Expr|Literal|Lit|OperandName)")=Expression
 
-  implements("(Type|Import)Spec|(Var|Const|Param|(Anonymous)?Field|Label)Definition|Receiver")="com.goide.psi.GoNamedElement"
-  implements("FunctionLit")="com.goide.psi.GoSignatureOwner"
-  implements("MethodSpec")="com.goide.psi.GoNamedSignatureOwner"
-  implements("(Function|Method)Declaration")="com.goide.psi.GoFunctionOrMethodDeclaration"
-  implements("(Const|Type|Var)Declaration")="com.goide.psi.GoTopLevelDeclaration"
-  implements(".*ReferenceExpression|FieldName")="com.goide.psi.GoReferenceExpressionBase"
-  extends("(Function|Method)Declaration")="com.goide.psi.impl.GoFunctionOrMethodDeclarationImpl<?>"
-  extends("(Type|Import|Method)Spec|(Var|Const|Param|(Anonymous)?Field|Label)Definition|Receiver")="com.goide.psi.impl.GoNamedElementImpl<?>"
-  extends("PackageClause|Parameters|Signature|ParameterDeclaration|Result|Type|(Const|Var|Import)Spec")="com.goide.psi.impl.GoStubbedElementImpl<?>"
+  implements("(Type|Import)Spec|(Var|Const|Param|(Anonymous)?Field|Label)Definition|Receiver")="com.dexscript.psi.GoNamedElement"
+  implements("FunctionLit")="com.dexscript.psi.GoSignatureOwner"
+  implements("MethodSpec")="com.dexscript.psi.GoNamedSignatureOwner"
+  implements("(Function|Method)Declaration")="com.dexscript.psi.GoFunctionOrMethodDeclaration"
+  implements("(Const|Type|Var)Declaration")="com.dexscript.psi.GoTopLevelDeclaration"
+  implements(".*ReferenceExpression|FieldName")="com.dexscript.psi.GoReferenceExpressionBase"
+  extends("(Function|Method)Declaration")="com.dexscript.psi.impl.GoFunctionOrMethodDeclarationImpl<?>"
+  extends("(Type|Import|Method)Spec|(Var|Const|Param|(Anonymous)?Field|Label)Definition|Receiver")="com.dexscript.psi.impl.GoNamedElementImpl<?>"
+  extends("PackageClause|Parameters|Signature|ParameterDeclaration|Result|Type|(Const|Var|Import)Spec")="com.dexscript.psi.impl.GoStubbedElementImpl<?>"
   elementTypeFactory("PackageClause|(Function|Method|Parameter)Declaration|(Type|Import|Method|Const|Var)Spec|RangeClause|RecvStatement|ShortVarDeclaration|(Var|Const|Param|(Anonymous)?Field|Label)Definition|Receiver|Parameters|Signature|Result|.*Type|TypeList.*")='com.goide.stubs.GoElementTypeFactory.stubFactory'
   pin(".*Statement")=1
   extends(".*Statement")=Statement
@@ -144,7 +144,7 @@ AnonymousFieldDefinition ::= Type {
 
 PointerType ::= '*' Type {pin=1}
 
-FunctionType ::= func Signature {pin=1 implements="com.goide.psi.GoSignatureOwner"}
+FunctionType ::= func Signature {pin=1 implements="com.dexscript.psi.GoSignatureOwner"}
 Signature ::= Parameters Result? {
   pin=1
   stubClass="com.goide.stubs.GoSignatureStub"
@@ -258,7 +258,7 @@ TypeSpec ::= SpecType {
   methods=[getGoTypeInner getMethods shouldGoDeeper identifier="SpecType/identifier"]
   stubClass="com.goide.stubs.GoTypeSpecStub"
 }
-SpecType ::= identifier Type {pin=1 stubClass="com.goide.stubs.GoTypeStub" extends="com.goide.psi.impl.GoTypeImpl" implements=Type}
+SpecType ::= identifier Type {pin=1 stubClass="com.goide.stubs.GoTypeStub" extends="com.dexscript.psi.impl.GoTypeImpl" implements=Type}
 
 VarDeclaration ::= var ( VarSpec | '(' VarSpecs? ')' ) {pin(".*")=1 methods=[addSpec deleteSpec]}
 private VarSpecs ::= VarSpec (semi VarSpec)* semi? {pin=1}
@@ -336,7 +336,7 @@ Expression ::=
   | UnaryExpr
   | ConversionExpr
   | MaxGroup
-  | ParenthesesExpr {methods=[getGoType] implements="com.goide.psi.GoTypeOwner"}
+  | ParenthesesExpr {methods=[getGoType] implements="com.dexscript.psi.GoTypeOwner"}
 
 fake BinaryExpr ::= Expression+ {
   methods=[left="Expression[0]" right="Expression[1]" getOperator]
@@ -401,12 +401,12 @@ left ExprSwitchStatement ::= Condition '{' ExprCaseClause* '}' {pin=2 extends=Sw
 private Condition ::= <<enterMode "BLOCK?">> SimpleStatementOpt Expression? <<exitModeSafe "BLOCK?">>
 private SimpleStatementOpt ::= [SimpleStatement ';'?] // todo: remove ?
 
-ExprCaseClause ::= !'}' ExprSwitchCase ':' Statements? {pin=1 implements="com.goide.psi.GoCaseClause"}
+ExprCaseClause ::= !'}' ExprSwitchCase ':' Statements? {pin=1 implements="com.dexscript.psi.GoCaseClause"}
 private ExprSwitchCase ::= case ExpressionList | default {pin(".*")=1} 
 left TypeSwitchStatement ::= (TypeSwitchGuard | SimpleStatement ';'? TypeSwitchGuard) '{' ( TypeCaseClause )* '}' {pin=1 extends=SwitchStatement}
 TypeSwitchGuard ::= [ VarDefinition ':=' ] Expression '.' TypeGuard
 TypeGuard ::= '(' 'type' ')' {pin=2}
-TypeCaseClause ::= !'}' TypeSwitchCase ':' Statements? {pin=1 implements="com.goide.psi.GoCaseClause"}
+TypeCaseClause ::= !'}' TypeSwitchCase ':' Statements? {pin=1 implements="com.dexscript.psi.GoCaseClause"}
 private TypeSwitchCase ::= case TypeList | default {pin(".*")=1}
 TypeList ::= Type ( ',' Type )* ','?
 TypeListNoPin ::= Type ( ',' Type )* ','? {elementType=TypeList}

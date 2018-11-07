@@ -16,11 +16,11 @@
 
 package com.goide.util;
 
-import com.goide.psi.GoFile;
-import com.goide.psi.GoImportSpec;
-import com.goide.psi.GoNamedElement;
-import com.goide.psi.impl.GoPsiImplUtil;
-import com.goide.psi.impl.imports.GoImportReferenceSet;
+import com.dexscript.psi.GoFile;
+import com.dexscript.psi.GoImportSpec;
+import com.dexscript.psi.GoNamedElement;
+import com.dexscript.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.impl.imports.GoImportReferenceSet;
 import com.goide.sdk.GoPackageUtil;
 import com.goide.sdk.GoSdkService;
 import com.intellij.openapi.module.Module;

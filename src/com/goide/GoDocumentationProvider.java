@@ -16,12 +16,13 @@
 
 package com.goide;
 
+import com.dexscript.psi.*;
 import com.goide.editor.GoParameterInfoHandler;
 import com.goide.project.GoVendoringUtil;
 import com.goide.psi.*;
-import com.goide.psi.impl.GoCType;
-import com.goide.psi.impl.GoLightType;
-import com.goide.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.impl.GoCType;
+import com.dexscript.psi.impl.GoLightType;
+import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.goide.sdk.GoPackageUtil;
 import com.goide.sdk.GoSdkUtil;
 import com.goide.stubs.index.GoAllPrivateNamesIndex;

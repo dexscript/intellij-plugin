@@ -16,8 +16,8 @@
 
 package com.goide.runconfig.testing.frameworks.gotest;
 
-import com.goide.psi.GoFunctionDeclaration;
-import com.goide.psi.GoFunctionOrMethodDeclaration;
+import com.dexscript.psi.GoFunctionDeclaration;
+import com.dexscript.psi.GoFunctionOrMethodDeclaration;
 import com.goide.runconfig.testing.*;
 import com.intellij.execution.runners.ExecutionEnvironment;
 import com.intellij.execution.testframework.TestConsoleProperties;

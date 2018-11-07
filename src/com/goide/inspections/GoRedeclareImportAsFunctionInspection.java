@@ -16,8 +16,8 @@
 
 package com.goide.inspections;
 
-import com.goide.psi.GoFunctionDeclaration;
-import com.goide.psi.GoVisitor;
+import com.dexscript.psi.GoFunctionDeclaration;
+import com.dexscript.psi.GoVisitor;
 import com.goide.quickfix.GoRenameQuickFix;
 import com.intellij.codeInspection.LocalInspectionToolSession;
 import com.intellij.codeInspection.ProblemsHolder;

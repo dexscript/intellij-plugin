@@ -16,8 +16,8 @@
 
 package com.goide.quickfix;
 
-import com.goide.psi.GoConstDefinition;
-import com.goide.psi.GoConstSpec;
+import com.dexscript.psi.GoConstDefinition;
+import com.dexscript.psi.GoConstSpec;
 import com.intellij.codeInspection.LocalQuickFixBase;
 import com.intellij.codeInspection.ProblemDescriptor;
 import com.intellij.openapi.project.Project;

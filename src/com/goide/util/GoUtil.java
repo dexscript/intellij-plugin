@@ -16,10 +16,11 @@
 
 package com.goide.util;
 
+import com.dexscript.psi.*;
 import com.goide.GoConstants;
 import com.goide.project.GoExcludedPathsSettings;
 import com.goide.psi.*;
-import com.goide.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.goide.runconfig.testing.GoTestFinder;
 import com.goide.sdk.GoPackageUtil;
 import com.intellij.ide.plugins.IdeaPluginDescriptor;

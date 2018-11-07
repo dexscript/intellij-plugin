@@ -16,7 +16,7 @@
 
 package com.goide.tree;
 
-import com.goide.psi.GoNamedElement;
+import com.dexscript.psi.GoNamedElement;
 import com.intellij.ide.util.treeView.smartTree.ActionPresentation;
 import com.intellij.ide.util.treeView.smartTree.ActionPresentationData;
 import com.intellij.ide.util.treeView.smartTree.Filter;

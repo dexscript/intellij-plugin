@@ -16,7 +16,7 @@
 
 package com.goide.go;
 
-import com.goide.psi.GoTypeSpec;
+import com.dexscript.psi.GoTypeSpec;
 import com.goide.stubs.index.GoTypesIndex;
 
 public class GoTypeContributor extends GoGotoContributorBase<GoTypeSpec> {

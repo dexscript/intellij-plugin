@@ -16,6 +16,7 @@
 
 package com.goide.editor;
 
+import com.dexscript.psi.*;
 import com.goide.psi.*;
 import com.intellij.codeInsight.editorActions.wordSelection.AbstractWordSelectioner;
 import com.intellij.openapi.editor.Editor;

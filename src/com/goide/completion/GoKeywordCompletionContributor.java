@@ -16,9 +16,10 @@
 
 package com.goide.completion;
 
+import com.dexscript.psi.*;
 import com.goide.GoTypes;
 import com.goide.psi.*;
-import com.goide.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.goide.template.GoLiveTemplateContextType;
 import com.intellij.codeInsight.completion.*;
 import com.intellij.codeInsight.lookup.AutoCompletionPolicy;

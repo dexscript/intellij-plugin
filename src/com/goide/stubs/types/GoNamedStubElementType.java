@@ -16,7 +16,7 @@
 
 package com.goide.stubs.types;
 
-import com.goide.psi.GoNamedElement;
+import com.dexscript.psi.GoNamedElement;
 import com.goide.stubs.GoFileStub;
 import com.goide.stubs.GoNamedStub;
 import com.goide.stubs.index.GoAllPrivateNamesIndex;

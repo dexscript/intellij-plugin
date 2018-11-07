@@ -18,9 +18,9 @@ package com.goide.inspections;
 
 import com.goide.GoConstants;
 import com.goide.project.GoVendoringUtil;
-import com.goide.psi.GoFile;
-import com.goide.psi.GoImportSpec;
-import com.goide.psi.impl.imports.GoImportReference;
+import com.dexscript.psi.GoFile;
+import com.dexscript.psi.GoImportSpec;
+import com.dexscript.psi.impl.imports.GoImportReference;
 import com.goide.quickfix.GoDeleteImportQuickFix;
 import com.goide.quickfix.GoDisableVendoringInModuleQuickFix;
 import com.goide.runconfig.testing.GoTestFinder;

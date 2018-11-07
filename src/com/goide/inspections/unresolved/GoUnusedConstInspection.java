@@ -17,8 +17,8 @@
 package com.goide.inspections.unresolved;
 
 import com.goide.inspections.GoInspectionBase;
-import com.goide.psi.GoConstDefinition;
-import com.goide.psi.GoVisitor;
+import com.dexscript.psi.GoConstDefinition;
+import com.dexscript.psi.GoVisitor;
 import com.goide.quickfix.GoDeleteConstDefinitionQuickFix;
 import com.intellij.codeInspection.LocalInspectionToolSession;
 import com.intellij.codeInspection.ProblemHighlightType;

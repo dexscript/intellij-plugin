@@ -18,8 +18,8 @@ package com.goide.runconfig;
 
 import com.goide.GoConstants;
 import com.goide.GoFileType;
-import com.goide.psi.GoFile;
-import com.goide.psi.GoPackageClause;
+import com.dexscript.psi.GoFile;
+import com.dexscript.psi.GoPackageClause;
 import com.goide.runconfig.testing.GoTestFinder;
 import com.intellij.execution.actions.ConfigurationContext;
 import com.intellij.execution.configurations.GeneralCommandLine;

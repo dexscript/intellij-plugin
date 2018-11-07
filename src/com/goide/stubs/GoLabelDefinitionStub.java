@@ -16,7 +16,7 @@
 
 package com.goide.stubs;
 
-import com.goide.psi.GoLabelDefinition;
+import com.dexscript.psi.GoLabelDefinition;
 import com.intellij.psi.stubs.IStubElementType;
 import com.intellij.psi.stubs.StubElement;
 import com.intellij.util.io.StringRef;

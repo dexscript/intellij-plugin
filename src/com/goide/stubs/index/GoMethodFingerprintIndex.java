@@ -17,7 +17,7 @@
 package com.goide.stubs.index;
 
 import com.goide.GoFileElementType;
-import com.goide.psi.GoMethodSpec;
+import com.dexscript.psi.GoMethodSpec;
 import com.intellij.openapi.project.Project;
 import com.intellij.psi.search.GlobalSearchScope;
 import com.intellij.psi.stubs.StringStubIndexExtension;

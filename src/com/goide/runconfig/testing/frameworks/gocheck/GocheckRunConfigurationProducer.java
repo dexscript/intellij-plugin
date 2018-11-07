@@ -16,8 +16,8 @@
 
 package com.goide.runconfig.testing.frameworks.gocheck;
 
-import com.goide.psi.GoFunctionOrMethodDeclaration;
-import com.goide.psi.GoMethodDeclaration;
+import com.dexscript.psi.GoFunctionOrMethodDeclaration;
+import com.dexscript.psi.GoMethodDeclaration;
 import com.goide.runconfig.testing.GoTestRunConfigurationProducerBase;
 import org.jetbrains.annotations.NotNull;
 

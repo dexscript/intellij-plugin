@@ -16,8 +16,8 @@
 
 package com.goide.codeInsight.unwrap;
 
-import com.goide.psi.GoForClause;
-import com.goide.psi.GoForStatement;
+import com.dexscript.psi.GoForClause;
+import com.dexscript.psi.GoForStatement;
 import com.intellij.psi.PsiElement;
 import com.intellij.util.IncorrectOperationException;
 import com.intellij.util.containers.ContainerUtil;

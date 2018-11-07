@@ -16,8 +16,8 @@
 
 package com.goide.stubs.types;
 
-import com.goide.psi.GoParameterDeclaration;
-import com.goide.psi.impl.GoParameterDeclarationImpl;
+import com.dexscript.psi.GoParameterDeclaration;
+import com.dexscript.psi.impl.GoParameterDeclarationImpl;
 import com.goide.stubs.GoParameterDeclarationStub;
 import com.intellij.psi.stubs.StubElement;
 import com.intellij.psi.stubs.StubInputStream;

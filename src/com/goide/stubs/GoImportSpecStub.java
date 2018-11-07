@@ -16,7 +16,7 @@
 
 package com.goide.stubs;
 
-import com.goide.psi.GoImportSpec;
+import com.dexscript.psi.GoImportSpec;
 import com.intellij.psi.stubs.IStubElementType;
 import com.intellij.psi.stubs.StubElement;
 import com.intellij.util.io.StringRef;

@@ -16,9 +16,9 @@
 
 package com.goide.editor.surround;
 
-import com.goide.psi.GoFile;
-import com.goide.psi.GoPsiTreeUtil;
-import com.goide.psi.GoStatement;
+import com.dexscript.psi.GoFile;
+import com.dexscript.psi.GoPsiTreeUtil;
+import com.dexscript.psi.GoStatement;
 import com.intellij.lang.surroundWith.SurroundDescriptor;
 import com.intellij.lang.surroundWith.Surrounder;
 import com.intellij.psi.PsiElement;

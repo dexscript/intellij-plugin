@@ -16,8 +16,8 @@
 
 package com.goide.quickfix;
 
-import com.goide.psi.GoForStatement;
-import com.goide.psi.impl.GoElementFactory;
+import com.dexscript.psi.GoForStatement;
+import com.dexscript.psi.impl.GoElementFactory;
 import com.intellij.codeInspection.LocalQuickFixBase;
 import com.intellij.codeInspection.ProblemDescriptor;
 import com.intellij.openapi.project.Project;

@@ -16,8 +16,8 @@
 
 package com.goide.runconfig.testing.frameworks.gocheck;
 
-import com.goide.psi.GoFile;
-import com.goide.psi.GoMethodDeclaration;
+import com.dexscript.psi.GoFile;
+import com.dexscript.psi.GoMethodDeclaration;
 import com.goide.runconfig.testing.GoTestRunConfiguration;
 import com.goide.runconfig.testing.GoTestRunningState;
 import com.goide.util.GoExecutor;

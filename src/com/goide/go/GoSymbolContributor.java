@@ -16,7 +16,7 @@
 
 package com.goide.go;
 
-import com.goide.psi.GoNamedElement;
+import com.dexscript.psi.GoNamedElement;
 import com.goide.stubs.index.GoAllPrivateNamesIndex;
 import com.goide.stubs.index.GoAllPublicNamesIndex;
 

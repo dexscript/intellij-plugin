@@ -16,8 +16,9 @@
 
 package com.goide.inspections;
 
+import com.dexscript.psi.*;
 import com.goide.psi.*;
-import com.goide.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.goide.sdk.GoPackageUtil;
 import com.goide.stubs.index.GoFunctionIndex;
 import com.goide.stubs.index.GoIdFilter;

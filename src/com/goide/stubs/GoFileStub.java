@@ -17,8 +17,8 @@
 package com.goide.stubs;
 
 import com.goide.GoFileElementType;
-import com.goide.psi.GoFile;
-import com.goide.psi.GoPackageClause;
+import com.dexscript.psi.GoFile;
+import com.dexscript.psi.GoPackageClause;
 import com.goide.stubs.types.GoPackageClauseStubElementType;
 import com.intellij.psi.stubs.PsiFileStubImpl;
 import com.intellij.psi.stubs.StubElement;

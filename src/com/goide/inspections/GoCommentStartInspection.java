@@ -18,10 +18,10 @@ package com.goide.inspections;
 
 import com.goide.GoConstants;
 import com.goide.GoDocumentationProvider;
-import com.goide.psi.GoCompositeElement;
-import com.goide.psi.GoNamedElement;
-import com.goide.psi.GoPackageClause;
-import com.goide.psi.GoVisitor;
+import com.dexscript.psi.GoCompositeElement;
+import com.dexscript.psi.GoNamedElement;
+import com.dexscript.psi.GoPackageClause;
+import com.dexscript.psi.GoVisitor;
 import com.intellij.codeInspection.LocalInspectionToolSession;
 import com.intellij.codeInspection.ProblemHighlightType;
 import com.intellij.codeInspection.ProblemsHolder;

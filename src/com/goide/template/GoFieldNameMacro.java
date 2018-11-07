@@ -16,7 +16,7 @@
 
 package com.goide.template;
 
-import com.goide.psi.GoFieldDeclaration;
+import com.dexscript.psi.GoFieldDeclaration;
 import com.intellij.codeInsight.lookup.LookupElement;
 import com.intellij.codeInsight.lookup.LookupElementBuilder;
 import com.intellij.codeInsight.template.*;

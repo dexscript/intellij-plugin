@@ -16,8 +16,8 @@
 
 package com.goide.stubs.types;
 
-import com.goide.psi.GoReceiver;
-import com.goide.psi.impl.GoReceiverImpl;
+import com.dexscript.psi.GoReceiver;
+import com.dexscript.psi.impl.GoReceiverImpl;
 import com.goide.stubs.GoReceiverStub;
 import com.intellij.lang.ASTNode;
 import com.intellij.openapi.util.text.StringUtil;

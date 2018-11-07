@@ -16,8 +16,8 @@
 
 package com.goide.inspections;
 
-import com.goide.psi.GoAnonymousFieldDefinition;
-import com.goide.psi.GoVisitor;
+import com.dexscript.psi.GoAnonymousFieldDefinition;
+import com.dexscript.psi.GoVisitor;
 import com.goide.quickfix.GoCreateWrapperTypeQuickFix;
 import com.intellij.codeInspection.LocalInspectionToolSession;
 import com.intellij.codeInspection.ProblemsHolder;

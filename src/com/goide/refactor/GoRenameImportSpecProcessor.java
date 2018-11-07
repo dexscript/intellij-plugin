@@ -16,7 +16,7 @@
 
 package com.goide.refactor;
 
-import com.goide.psi.GoImportSpec;
+import com.dexscript.psi.GoImportSpec;
 import com.intellij.find.FindManager;
 import com.intellij.openapi.editor.Editor;
 import com.intellij.psi.PsiElement;

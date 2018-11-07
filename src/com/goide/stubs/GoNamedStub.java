@@ -16,7 +16,7 @@
 
 package com.goide.stubs;
 
-import com.goide.psi.GoNamedElement;
+import com.dexscript.psi.GoNamedElement;
 import com.intellij.openapi.util.text.StringUtil;
 import com.intellij.psi.stubs.IStubElementType;
 import com.intellij.psi.stubs.NamedStubBase;

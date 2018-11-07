@@ -16,7 +16,7 @@
 
 package com.goide.inspections;
 
-import com.goide.psi.GoFunctionOrMethodDeclaration;
+import com.dexscript.psi.GoFunctionOrMethodDeclaration;
 import com.intellij.openapi.util.Pair;
 import com.intellij.openapi.util.text.StringUtil;
 import com.intellij.util.containers.ContainerUtil;

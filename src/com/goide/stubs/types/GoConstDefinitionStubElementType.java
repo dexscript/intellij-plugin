@@ -16,9 +16,9 @@
 
 package com.goide.stubs.types;
 
-import com.goide.psi.GoConstDefinition;
-import com.goide.psi.GoFunctionOrMethodDeclaration;
-import com.goide.psi.impl.GoConstDefinitionImpl;
+import com.dexscript.psi.GoConstDefinition;
+import com.dexscript.psi.GoFunctionOrMethodDeclaration;
+import com.dexscript.psi.impl.GoConstDefinitionImpl;
 import com.goide.stubs.GoConstDefinitionStub;
 import com.intellij.lang.ASTNode;
 import com.intellij.psi.stubs.StubElement;

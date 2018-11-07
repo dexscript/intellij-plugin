@@ -16,10 +16,10 @@
 
 package com.goide.inspections;
 
-import com.goide.psi.GoDeferStatement;
-import com.goide.psi.GoForStatement;
-import com.goide.psi.GoFunctionLit;
-import com.goide.psi.GoVisitor;
+import com.dexscript.psi.GoDeferStatement;
+import com.dexscript.psi.GoForStatement;
+import com.dexscript.psi.GoFunctionLit;
+import com.dexscript.psi.GoVisitor;
 import com.intellij.codeInspection.LocalInspectionToolSession;
 import com.intellij.codeInspection.ProblemHighlightType;
 import com.intellij.codeInspection.ProblemsHolder;

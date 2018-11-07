@@ -16,7 +16,7 @@
 
 package com.goide.refactor;
 
-import com.goide.psi.GoNamedElement;
+import com.dexscript.psi.GoNamedElement;
 import com.intellij.lang.refactoring.RefactoringSupportProvider;
 import com.intellij.psi.PsiElement;
 import com.intellij.refactoring.RefactoringActionHandler;

@@ -16,10 +16,10 @@
 
 package com.goide.editor.surround;
 
-import com.goide.psi.GoExpression;
-import com.goide.psi.GoIfStatement;
-import com.goide.psi.impl.GoElementFactory;
-import com.goide.psi.impl.GoTypeUtil;
+import com.dexscript.psi.GoExpression;
+import com.dexscript.psi.GoIfStatement;
+import com.dexscript.psi.impl.GoElementFactory;
+import com.dexscript.psi.impl.GoTypeUtil;
 import com.intellij.openapi.util.TextRange;
 import com.intellij.psi.PsiElement;
 import org.jetbrains.annotations.NotNull;

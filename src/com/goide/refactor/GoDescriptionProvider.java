@@ -16,7 +16,7 @@
 
 package com.goide.refactor;
 
-import com.goide.psi.GoNamedElement;
+import com.dexscript.psi.GoNamedElement;
 import com.intellij.codeInsight.highlighting.HighlightUsagesDescriptionLocation;
 import com.intellij.psi.ElementDescriptionLocation;
 import com.intellij.psi.ElementDescriptionProvider;

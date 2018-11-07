@@ -17,9 +17,9 @@
 package com.goide.highlighting.exitpoint;
 
 import com.goide.GoTypes;
-import com.goide.psi.GoCallExpr;
-import com.goide.psi.GoReferenceExpression;
-import com.goide.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.GoCallExpr;
+import com.dexscript.psi.GoReferenceExpression;
+import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.intellij.codeInsight.highlighting.HighlightUsagesHandlerBase;
 import com.intellij.codeInsight.highlighting.HighlightUsagesHandlerFactoryBase;
 import com.intellij.openapi.editor.Editor;

@@ -16,9 +16,9 @@
 
 package com.goide.editor;
 
-import com.goide.psi.GoNamedElement;
-import com.goide.psi.GoType;
-import com.goide.psi.GoTypeReferenceExpression;
+import com.dexscript.psi.GoNamedElement;
+import com.dexscript.psi.GoType;
+import com.dexscript.psi.GoTypeReferenceExpression;
 import com.intellij.codeInsight.navigation.actions.TypeDeclarationProvider;
 import com.intellij.psi.PsiElement;
 import org.jetbrains.annotations.NotNull;

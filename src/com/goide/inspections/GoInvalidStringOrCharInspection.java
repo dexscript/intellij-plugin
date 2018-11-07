@@ -16,9 +16,9 @@
 
 package com.goide.inspections;
 
-import com.goide.psi.GoLiteral;
-import com.goide.psi.GoStringLiteral;
-import com.goide.psi.GoVisitor;
+import com.dexscript.psi.GoLiteral;
+import com.dexscript.psi.GoStringLiteral;
+import com.dexscript.psi.GoVisitor;
 import com.intellij.codeInspection.LocalInspectionToolSession;
 import com.intellij.codeInspection.ProblemsHolder;
 import com.intellij.psi.PsiElement;

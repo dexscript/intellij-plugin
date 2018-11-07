@@ -17,10 +17,10 @@
 package com.goide.runconfig.testing;
 
 import com.goide.GoTypes;
-import com.goide.psi.GoFunctionDeclaration;
-import com.goide.psi.GoFunctionOrMethodDeclaration;
-import com.goide.psi.GoMethodDeclaration;
-import com.goide.psi.GoReceiver;
+import com.dexscript.psi.GoFunctionDeclaration;
+import com.dexscript.psi.GoFunctionOrMethodDeclaration;
+import com.dexscript.psi.GoMethodDeclaration;
+import com.dexscript.psi.GoReceiver;
 import com.goide.runconfig.GoRunUtil;
 import com.intellij.execution.TestStateStorage;
 import com.intellij.execution.lineMarker.ExecutorAction;

@@ -16,9 +16,9 @@
 
 package com.goide.stubs;
 
-import com.goide.psi.GoConstSpec;
-import com.goide.psi.GoExpression;
-import com.goide.psi.impl.GoElementFactory;
+import com.dexscript.psi.GoConstSpec;
+import com.dexscript.psi.GoExpression;
+import com.dexscript.psi.impl.GoElementFactory;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.util.text.StringUtil;
 import com.intellij.psi.stubs.IStubElementType;

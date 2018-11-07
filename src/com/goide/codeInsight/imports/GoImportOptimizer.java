@@ -16,9 +16,10 @@
 
 package com.goide.codeInsight.imports;
 
+import com.dexscript.psi.*;
 import com.goide.GoTypes;
 import com.goide.psi.*;
-import com.goide.psi.impl.GoReferenceBase;
+import com.dexscript.psi.impl.GoReferenceBase;
 import com.intellij.lang.ImportOptimizer;
 import com.intellij.openapi.editor.Document;
 import com.intellij.openapi.progress.ProgressManager;

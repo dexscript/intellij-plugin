@@ -16,7 +16,7 @@
 
 package com.goide.runconfig.application;
 
-import com.goide.psi.GoFile;
+import com.dexscript.psi.GoFile;
 import com.goide.runconfig.GoRunConfigurationProducerBase;
 import com.goide.runconfig.GoRunUtil;
 import com.goide.runconfig.testing.GoTestFinder;

@@ -16,7 +16,7 @@
 
 package com.goide.editor;
 
-import com.goide.psi.GoTopLevelDeclaration;
+import com.dexscript.psi.GoTopLevelDeclaration;
 import com.intellij.codeInsight.hint.ImplementationTextSelectioner;
 import com.intellij.openapi.util.TextRange;
 import com.intellij.psi.PsiElement;

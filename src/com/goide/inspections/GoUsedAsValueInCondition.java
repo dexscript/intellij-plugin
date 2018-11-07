@@ -16,12 +16,12 @@
 
 package com.goide.inspections;
 
-import com.goide.psi.GoAssignmentStatement;
-import com.goide.psi.GoIfStatement;
-import com.goide.psi.GoShortVarDeclaration;
-import com.goide.psi.GoVisitor;
-import com.goide.psi.impl.GoElementFactory;
-import com.goide.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.GoAssignmentStatement;
+import com.dexscript.psi.GoIfStatement;
+import com.dexscript.psi.GoShortVarDeclaration;
+import com.dexscript.psi.GoVisitor;
+import com.dexscript.psi.impl.GoElementFactory;
+import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.intellij.codeInspection.LocalInspectionToolSession;
 import com.intellij.codeInspection.LocalQuickFixBase;
 import com.intellij.codeInspection.ProblemDescriptor;

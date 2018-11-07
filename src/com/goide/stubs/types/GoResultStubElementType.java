@@ -16,8 +16,8 @@
 
 package com.goide.stubs.types;
 
-import com.goide.psi.GoResult;
-import com.goide.psi.impl.GoResultImpl;
+import com.dexscript.psi.GoResult;
+import com.dexscript.psi.impl.GoResultImpl;
 import com.goide.stubs.GoResultStub;
 import com.intellij.psi.stubs.StubElement;
 import com.intellij.psi.stubs.StubInputStream;

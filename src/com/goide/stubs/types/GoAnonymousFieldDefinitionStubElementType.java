@@ -16,8 +16,8 @@
 
 package com.goide.stubs.types;
 
-import com.goide.psi.GoAnonymousFieldDefinition;
-import com.goide.psi.impl.GoAnonymousFieldDefinitionImpl;
+import com.dexscript.psi.GoAnonymousFieldDefinition;
+import com.dexscript.psi.impl.GoAnonymousFieldDefinitionImpl;
 import com.goide.stubs.GoAnonymousFieldDefinitionStub;
 import com.intellij.psi.stubs.StubElement;
 import com.intellij.psi.stubs.StubInputStream;

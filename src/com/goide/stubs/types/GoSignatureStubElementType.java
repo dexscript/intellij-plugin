@@ -16,8 +16,8 @@
 
 package com.goide.stubs.types;
 
-import com.goide.psi.GoSignature;
-import com.goide.psi.impl.GoSignatureImpl;
+import com.dexscript.psi.GoSignature;
+import com.dexscript.psi.impl.GoSignatureImpl;
 import com.goide.stubs.GoSignatureStub;
 import com.intellij.psi.stubs.StubElement;
 import com.intellij.psi.stubs.StubInputStream;

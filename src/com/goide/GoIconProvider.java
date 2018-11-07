@@ -16,7 +16,7 @@
 
 package com.goide;
 
-import com.goide.psi.GoFile;
+import com.dexscript.psi.GoFile;
 import com.goide.runconfig.testing.GoTestFinder;
 import com.intellij.ide.IconProvider;
 import com.intellij.openapi.project.DumbAware;

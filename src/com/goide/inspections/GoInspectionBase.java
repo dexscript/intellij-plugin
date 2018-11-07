@@ -16,9 +16,9 @@
 
 package com.goide.inspections;
 
-import com.goide.psi.GoFile;
-import com.goide.psi.GoVisitor;
-import com.goide.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.GoFile;
+import com.dexscript.psi.GoVisitor;
+import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.intellij.codeInspection.*;
 import com.intellij.openapi.module.ModuleUtilCore;
 import com.intellij.psi.PsiElementVisitor;

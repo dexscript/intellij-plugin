@@ -17,13 +17,13 @@
 // This is a generated file. Not intended for manual editing.
 package com.goide;
 
+import com.dexscript.psi.impl.*;
 import com.intellij.psi.tree.IElementType;
 import com.intellij.psi.PsiElement;
 import com.intellij.lang.ASTNode;
-import com.goide.psi.GoCompositeElementType;
+import com.dexscript.psi.GoCompositeElementType;
 import com.goide.stubs.GoElementTypeFactory;
-import com.goide.psi.GoTokenType;
-import com.goide.psi.impl.*;
+import com.dexscript.psi.GoTokenType;
 
 public interface GoTypes {
 

@@ -16,9 +16,9 @@
 
 package com.goide.inspections;
 
-import com.goide.psi.GoElement;
-import com.goide.psi.GoVisitor;
-import com.goide.psi.impl.GoElementFactory;
+import com.dexscript.psi.GoElement;
+import com.dexscript.psi.GoVisitor;
+import com.dexscript.psi.impl.GoElementFactory;
 import com.intellij.codeInspection.LocalInspectionToolSession;
 import com.intellij.codeInspection.LocalQuickFixBase;
 import com.intellij.codeInspection.ProblemDescriptor;

@@ -16,9 +16,9 @@
 
 package com.goide.stubs;
 
-import com.goide.psi.GoType;
-import com.goide.psi.GoVarSpec;
-import com.goide.psi.impl.*;
+import com.dexscript.psi.GoType;
+import com.dexscript.psi.GoVarSpec;
+import com.dexscript.psi.impl.*;
 import com.goide.stubs.types.*;
 import com.intellij.psi.stubs.IStubElementType;
 import com.intellij.util.ReflectionUtil;

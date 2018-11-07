@@ -16,6 +16,7 @@
 
 package com.goide.inspections;
 
+import com.dexscript.psi.*;
 import com.goide.psi.*;
 import com.goide.quickfix.GoRenameQuickFix;
 import com.intellij.codeInspection.LocalInspectionToolSession;

@@ -16,9 +16,10 @@
 
 package com.goide.inspections;
 
+import com.dexscript.psi.*;
 import com.goide.highlighting.exitpoint.GoBreakStatementExitPointHandler;
 import com.goide.psi.*;
-import com.goide.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.intellij.codeInsight.template.Template;
 import com.intellij.codeInsight.template.TemplateManager;
 import com.intellij.codeInsight.template.impl.TemplateSettings;

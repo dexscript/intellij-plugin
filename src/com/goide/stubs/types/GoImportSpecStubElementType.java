@@ -16,8 +16,8 @@
 
 package com.goide.stubs.types;
 
-import com.goide.psi.GoImportSpec;
-import com.goide.psi.impl.GoImportSpecImpl;
+import com.dexscript.psi.GoImportSpec;
+import com.dexscript.psi.impl.GoImportSpecImpl;
 import com.goide.stubs.GoImportSpecStub;
 import com.intellij.lang.ASTNode;
 import com.intellij.openapi.util.text.StringUtil;

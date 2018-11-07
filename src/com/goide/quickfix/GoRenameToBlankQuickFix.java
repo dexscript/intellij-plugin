@@ -17,9 +17,9 @@
 package com.goide.quickfix;
 
 import com.goide.inspections.GoNoNewVariablesInspection;
-import com.goide.psi.GoNamedElement;
-import com.goide.psi.GoVarDefinition;
-import com.goide.psi.GoVarSpec;
+import com.dexscript.psi.GoNamedElement;
+import com.dexscript.psi.GoVarDefinition;
+import com.dexscript.psi.GoVarSpec;
 import com.intellij.codeInspection.LocalQuickFixOnPsiElement;
 import com.intellij.openapi.project.Project;
 import com.intellij.psi.PsiElement;

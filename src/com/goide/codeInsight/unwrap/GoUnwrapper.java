@@ -16,9 +16,9 @@
 
 package com.goide.codeInsight.unwrap;
 
-import com.goide.psi.GoBlock;
-import com.goide.psi.GoStatement;
-import com.goide.psi.impl.GoElementFactory;
+import com.dexscript.psi.GoBlock;
+import com.dexscript.psi.GoStatement;
+import com.dexscript.psi.impl.GoElementFactory;
 import com.intellij.codeInsight.unwrap.AbstractUnwrapper;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiWhiteSpace;

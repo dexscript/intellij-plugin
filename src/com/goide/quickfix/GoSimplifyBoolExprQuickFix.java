@@ -17,13 +17,13 @@
 package com.goide.quickfix;
 
 import com.goide.inspections.GoBoolExpressionsInspection;
-import com.goide.psi.GoAndExpr;
-import com.goide.psi.GoBinaryExpr;
-import com.goide.psi.GoExpression;
-import com.goide.psi.GoReferenceExpression;
-import com.goide.psi.impl.GoElementFactory;
-import com.goide.psi.impl.GoExpressionUtil;
-import com.goide.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.GoAndExpr;
+import com.dexscript.psi.GoBinaryExpr;
+import com.dexscript.psi.GoExpression;
+import com.dexscript.psi.GoReferenceExpression;
+import com.dexscript.psi.impl.GoElementFactory;
+import com.dexscript.psi.impl.GoExpressionUtil;
+import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.intellij.codeInspection.LocalQuickFixOnPsiElement;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.util.text.StringUtil;

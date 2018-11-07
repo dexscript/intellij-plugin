@@ -16,7 +16,7 @@
 
 package com.goide.actions.tool;
 
-import com.goide.psi.GoFile;
+import com.dexscript.psi.GoFile;
 import com.intellij.CommonBundle;
 import com.intellij.ide.util.PropertiesComponent;
 import com.intellij.openapi.fileEditor.FileDocumentManager;

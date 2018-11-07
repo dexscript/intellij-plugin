@@ -16,7 +16,7 @@
 
 package com.goide.go;
 
-import com.goide.psi.GoNamedElement;
+import com.dexscript.psi.GoNamedElement;
 import com.intellij.navigation.ChooseByNameContributorEx;
 import com.intellij.navigation.GotoClassContributor;
 import com.intellij.navigation.NavigationItem;

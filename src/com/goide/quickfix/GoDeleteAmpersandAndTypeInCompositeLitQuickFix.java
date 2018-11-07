@@ -16,6 +16,7 @@
 
 package com.goide.quickfix;
 
+import com.dexscript.psi.*;
 import com.goide.inspections.GoRedundantTypeDeclInCompositeLit;
 import com.goide.psi.*;
 import com.intellij.codeInspection.LocalQuickFixBase;

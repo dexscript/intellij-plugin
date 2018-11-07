@@ -16,9 +16,9 @@
 
 package com.goide.quickfix;
 
-import com.goide.psi.GoFunctionDeclaration;
-import com.goide.psi.GoSignature;
-import com.goide.psi.impl.GoElementFactory;
+import com.dexscript.psi.GoFunctionDeclaration;
+import com.dexscript.psi.GoSignature;
+import com.dexscript.psi.impl.GoElementFactory;
 import com.intellij.codeInspection.LocalQuickFixAndIntentionActionOnPsiElement;
 import com.intellij.openapi.editor.Editor;
 import com.intellij.openapi.project.Project;

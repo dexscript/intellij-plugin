@@ -16,10 +16,11 @@
 
 package com.goide.refactor;
 
+import com.dexscript.psi.*;
 import com.goide.GoLanguage;
 import com.goide.psi.*;
-import com.goide.psi.impl.GoPsiImplUtil;
-import com.goide.psi.impl.GoTypeUtil;
+import com.dexscript.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.impl.GoTypeUtil;
 import com.intellij.codeInsight.PsiEquivalenceUtil;
 import com.intellij.codeInsight.lookup.LookupElement;
 import com.intellij.codeInsight.lookup.LookupElementBuilder;

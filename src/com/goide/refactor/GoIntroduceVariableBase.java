@@ -16,9 +16,10 @@
 
 package com.goide.refactor;
 
+import com.dexscript.psi.*;
 import com.goide.inspections.GoInspectionUtil;
 import com.goide.psi.*;
-import com.goide.psi.impl.GoElementFactory;
+import com.dexscript.psi.impl.GoElementFactory;
 import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.command.WriteCommandAction;
 import com.intellij.openapi.editor.Editor;

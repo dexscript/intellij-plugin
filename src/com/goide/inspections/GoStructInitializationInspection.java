@@ -16,9 +16,10 @@
 
 package com.goide.inspections;
 
+import com.dexscript.psi.*;
 import com.goide.psi.*;
-import com.goide.psi.impl.GoElementFactory;
-import com.goide.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.impl.GoElementFactory;
+import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.goide.util.GoUtil;
 import com.intellij.codeInspection.*;
 import com.intellij.codeInspection.ui.SingleCheckboxOptionsPanel;

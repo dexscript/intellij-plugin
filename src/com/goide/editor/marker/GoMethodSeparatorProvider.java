@@ -16,8 +16,8 @@
 
 package com.goide.editor.marker;
 
-import com.goide.psi.GoFile;
-import com.goide.psi.GoTopLevelDeclaration;
+import com.dexscript.psi.GoFile;
+import com.dexscript.psi.GoTopLevelDeclaration;
 import com.intellij.codeInsight.daemon.DaemonCodeAnalyzerSettings;
 import com.intellij.codeInsight.daemon.LineMarkerInfo;
 import com.intellij.codeInsight.daemon.LineMarkerProvider;

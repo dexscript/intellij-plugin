@@ -16,6 +16,7 @@
 
 package com.goide.inspections;
 
+import com.dexscript.psi.*;
 import com.goide.psi.*;
 import com.goide.quickfix.GoReplaceWithSelectStatementQuickFix;
 import com.intellij.codeInspection.LocalInspectionToolSession;

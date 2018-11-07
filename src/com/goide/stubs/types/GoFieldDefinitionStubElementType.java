@@ -16,8 +16,8 @@
 
 package com.goide.stubs.types;
 
-import com.goide.psi.GoFieldDefinition;
-import com.goide.psi.impl.GoFieldDefinitionImpl;
+import com.dexscript.psi.GoFieldDefinition;
+import com.dexscript.psi.impl.GoFieldDefinitionImpl;
 import com.goide.stubs.GoFieldDefinitionStub;
 import com.intellij.psi.stubs.StubElement;
 import com.intellij.psi.stubs.StubInputStream;

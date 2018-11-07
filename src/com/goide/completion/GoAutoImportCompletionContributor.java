@@ -16,10 +16,11 @@
 
 package com.goide.completion;
 
+import com.dexscript.psi.*;
 import com.goide.project.GoVendoringUtil;
 import com.goide.psi.*;
-import com.goide.psi.impl.GoPsiImplUtil;
-import com.goide.psi.impl.GoTypeReference;
+import com.dexscript.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.impl.GoTypeReference;
 import com.goide.runconfig.testing.GoTestFinder;
 import com.goide.stubs.index.GoIdFilter;
 import com.goide.util.GoUtil;
@@ -47,7 +48,7 @@ import org.jetbrains.annotations.Nullable;
 import java.util.*;
 
 import static com.goide.completion.GoCompletionUtil.createPrefixMatcher;
-import static com.goide.psi.impl.GoPsiImplUtil.prevDot;
+import static com.dexscript.psi.impl.GoPsiImplUtil.prevDot;
 import static com.goide.stubs.index.GoAllPublicNamesIndex.ALL_PUBLIC_NAMES;
 import static com.intellij.patterns.PlatformPatterns.psiElement;
 

@@ -17,7 +17,7 @@
 package com.goide.stubs.index;
 
 import com.goide.GoFileElementType;
-import com.goide.psi.GoFile;
+import com.dexscript.psi.GoFile;
 import com.intellij.psi.stubs.StringStubIndexExtension;
 import com.intellij.psi.stubs.StubIndexKey;
 import org.jetbrains.annotations.NotNull;

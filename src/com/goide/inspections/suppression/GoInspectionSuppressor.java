@@ -16,6 +16,7 @@
 
 package com.goide.inspections.suppression;
 
+import com.dexscript.psi.*;
 import com.goide.psi.*;
 import com.intellij.codeInsight.daemon.impl.actions.AbstractBatchSuppressByNoInspectionCommentFix;
 import com.intellij.codeInspection.InspectionSuppressor;

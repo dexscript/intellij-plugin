@@ -16,9 +16,9 @@
 
 package com.goide.stubs.types;
 
-import com.goide.psi.GoMethodSpec;
-import com.goide.psi.impl.GoMethodSpecImpl;
-import com.goide.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.GoMethodSpec;
+import com.dexscript.psi.impl.GoMethodSpecImpl;
+import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.goide.stubs.GoMethodSpecStub;
 import com.goide.stubs.index.GoMethodFingerprintIndex;
 import com.intellij.psi.stubs.IndexSink;

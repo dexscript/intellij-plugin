@@ -16,12 +16,12 @@
 
 package com.goide.inspections.unresolved;
 
-import com.goide.psi.GoAssignmentStatement;
-import com.goide.psi.GoExpression;
-import com.goide.psi.GoRangeClause;
-import com.goide.psi.GoRecvStatement;
-import com.goide.psi.impl.GoElementFactory;
-import com.goide.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.GoAssignmentStatement;
+import com.dexscript.psi.GoExpression;
+import com.dexscript.psi.GoRangeClause;
+import com.dexscript.psi.GoRecvStatement;
+import com.dexscript.psi.impl.GoElementFactory;
+import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.intellij.codeInspection.LocalQuickFixOnPsiElement;
 import com.intellij.openapi.project.Project;
 import com.intellij.psi.PsiElement;

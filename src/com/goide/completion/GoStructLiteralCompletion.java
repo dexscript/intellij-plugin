@@ -16,8 +16,9 @@
 
 package com.goide.completion;
 
+import com.dexscript.psi.*;
 import com.goide.psi.*;
-import com.goide.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.intellij.psi.PsiElement;
 import com.intellij.util.ObjectUtils;
 import com.intellij.util.containers.ContainerUtil;

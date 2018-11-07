@@ -17,7 +17,7 @@
 package com.goide.codeInsight.imports;
 
 import com.goide.project.GoExcludedPathsSettings;
-import com.goide.psi.GoFile;
+import com.dexscript.psi.GoFile;
 import com.intellij.codeInsight.lookup.Lookup;
 import com.intellij.codeInsight.lookup.LookupActionProvider;
 import com.intellij.codeInsight.lookup.LookupElement;

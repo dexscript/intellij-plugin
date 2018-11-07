@@ -16,9 +16,9 @@
 
 package com.goide.stubs.types;
 
-import com.goide.psi.GoFunctionDeclaration;
-import com.goide.psi.GoNamedElement;
-import com.goide.psi.impl.GoFunctionDeclarationImpl;
+import com.dexscript.psi.GoFunctionDeclaration;
+import com.dexscript.psi.GoNamedElement;
+import com.dexscript.psi.impl.GoFunctionDeclarationImpl;
 import com.goide.stubs.GoFunctionDeclarationStub;
 import com.goide.stubs.index.GoFunctionIndex;
 import com.intellij.psi.stubs.StubElement;

@@ -20,7 +20,7 @@ import com.goide.GoConstants;
 import com.goide.GoEnvironmentUtil;
 import com.goide.project.GoApplicationLibrariesService;
 import com.goide.project.GoLibrariesService;
-import com.goide.psi.GoFile;
+import com.dexscript.psi.GoFile;
 import com.intellij.execution.configurations.PathEnvironmentVariableUtil;
 import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.module.Module;

@@ -16,9 +16,9 @@
 
 package com.goide.codeInsight;
 
-import com.goide.psi.GoTopLevelDeclaration;
-import com.goide.psi.GoType;
-import com.goide.psi.GoTypeOwner;
+import com.dexscript.psi.GoTopLevelDeclaration;
+import com.dexscript.psi.GoType;
+import com.dexscript.psi.GoTypeOwner;
 import com.intellij.lang.ExpressionTypeProvider;
 import com.intellij.openapi.util.Conditions;
 import com.intellij.openapi.util.text.StringUtil;

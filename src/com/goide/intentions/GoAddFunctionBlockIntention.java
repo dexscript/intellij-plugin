@@ -17,9 +17,9 @@
 package com.goide.intentions;
 
 import com.goide.editor.smart.GoSmartEnterProcessor;
-import com.goide.psi.GoBlock;
-import com.goide.psi.GoFunctionOrMethodDeclaration;
-import com.goide.psi.impl.GoElementFactory;
+import com.dexscript.psi.GoBlock;
+import com.dexscript.psi.GoFunctionOrMethodDeclaration;
+import com.dexscript.psi.impl.GoElementFactory;
 import com.intellij.codeInsight.intention.BaseElementAtCaretIntentionAction;
 import com.intellij.openapi.editor.Editor;
 import com.intellij.openapi.project.Project;

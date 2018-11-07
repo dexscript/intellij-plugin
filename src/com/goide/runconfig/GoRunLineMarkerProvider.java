@@ -18,7 +18,7 @@ package com.goide.runconfig;
 
 import com.goide.GoConstants;
 import com.goide.GoTypes;
-import com.goide.psi.GoFunctionDeclaration;
+import com.dexscript.psi.GoFunctionDeclaration;
 import com.intellij.execution.lineMarker.ExecutorAction;
 import com.intellij.execution.lineMarker.RunLineMarkerContributor;
 import com.intellij.icons.AllIcons;

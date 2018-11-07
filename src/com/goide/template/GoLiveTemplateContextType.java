@@ -16,6 +16,7 @@
 
 package com.goide.template;
 
+import com.dexscript.psi.*;
 import com.goide.GoLanguage;
 import com.goide.GoTypes;
 import com.goide.highlighting.GoSyntaxHighlighter;

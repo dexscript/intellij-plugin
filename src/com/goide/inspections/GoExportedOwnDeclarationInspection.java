@@ -16,6 +16,7 @@
 
 package com.goide.inspections;
 
+import com.dexscript.psi.*;
 import com.goide.psi.*;
 import com.intellij.codeInspection.*;
 import com.intellij.diagnostic.AttachmentFactory;

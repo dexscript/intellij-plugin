@@ -18,7 +18,7 @@ package com.goide.util;
 
 import com.goide.GoConstants;
 import com.goide.project.GoVendoringUtil;
-import com.goide.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.goide.sdk.GoSdkService;
 import com.goide.sdk.GoSdkUtil;
 import com.intellij.openapi.application.ApplicationManager;

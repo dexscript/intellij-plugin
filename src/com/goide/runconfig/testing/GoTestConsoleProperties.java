@@ -16,7 +16,7 @@
 
 package com.goide.runconfig.testing;
 
-import com.goide.psi.GoFunctionOrMethodDeclaration;
+import com.dexscript.psi.GoFunctionOrMethodDeclaration;
 import com.goide.runconfig.GoRunConfigurationBase;
 import com.goide.sdk.GoPackageUtil;
 import com.goide.util.GoUtil;

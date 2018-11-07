@@ -16,10 +16,10 @@
 
 package com.goide.quickfix;
 
-import com.goide.psi.GoType;
-import com.goide.psi.GoTypeDeclaration;
-import com.goide.psi.GoTypeSpec;
-import com.goide.psi.impl.GoElementFactory;
+import com.dexscript.psi.GoType;
+import com.dexscript.psi.GoTypeDeclaration;
+import com.dexscript.psi.GoTypeSpec;
+import com.dexscript.psi.impl.GoElementFactory;
 import com.intellij.codeInsight.CodeInsightUtilCore;
 import com.intellij.codeInsight.template.Template;
 import com.intellij.codeInsight.template.TemplateBuilderImpl;

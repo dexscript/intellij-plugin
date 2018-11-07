@@ -16,7 +16,7 @@
 
 package com.goide.quickfix;
 
-import com.goide.psi.GoNamedElement;
+import com.dexscript.psi.GoNamedElement;
 import com.intellij.codeInsight.FileModificationService;
 import com.intellij.codeInspection.LocalQuickFixOnPsiElement;
 import com.intellij.ide.DataManager;

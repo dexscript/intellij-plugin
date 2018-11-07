@@ -16,9 +16,10 @@
 
 package com.goide.intentions;
 
+import com.dexscript.psi.*;
 import com.goide.psi.*;
-import com.goide.psi.impl.GoElementFactory;
-import com.goide.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.impl.GoElementFactory;
+import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.intellij.codeInsight.intention.BaseElementAtCaretIntentionAction;
 import com.intellij.openapi.editor.Editor;
 import com.intellij.openapi.project.Project;

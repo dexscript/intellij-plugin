@@ -16,10 +16,10 @@
 
 package com.goide.stubs.types;
 
-import com.goide.psi.GoMethodDeclaration;
-import com.goide.psi.GoTypeReferenceExpression;
-import com.goide.psi.impl.GoMethodDeclarationImpl;
-import com.goide.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.GoMethodDeclaration;
+import com.dexscript.psi.GoTypeReferenceExpression;
+import com.dexscript.psi.impl.GoMethodDeclarationImpl;
+import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.goide.stubs.GoFileStub;
 import com.goide.stubs.GoMethodDeclarationStub;
 import com.goide.stubs.index.GoMethodIndex;

@@ -18,9 +18,9 @@ package com.goide.inspections.unresolved;
 
 import com.goide.GoConstants;
 import com.goide.inspections.GoInspectionBase;
-import com.goide.psi.GoFile;
-import com.goide.psi.GoFunctionDeclaration;
-import com.goide.psi.GoVisitor;
+import com.dexscript.psi.GoFile;
+import com.dexscript.psi.GoFunctionDeclaration;
+import com.dexscript.psi.GoVisitor;
 import com.goide.quickfix.GoDeleteQuickFix;
 import com.goide.quickfix.GoRenameToBlankQuickFix;
 import com.goide.runconfig.testing.GoTestFinder;

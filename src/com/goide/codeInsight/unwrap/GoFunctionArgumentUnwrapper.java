@@ -16,9 +16,9 @@
 
 package com.goide.codeInsight.unwrap;
 
-import com.goide.psi.GoArgumentList;
-import com.goide.psi.GoCallExpr;
-import com.goide.psi.GoExpression;
+import com.dexscript.psi.GoArgumentList;
+import com.dexscript.psi.GoCallExpr;
+import com.dexscript.psi.GoExpression;
 import com.intellij.psi.PsiElement;
 import com.intellij.util.IncorrectOperationException;
 import com.intellij.util.ObjectUtils;

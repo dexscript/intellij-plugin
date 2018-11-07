@@ -16,9 +16,9 @@
 
 package com.goide.stubs.types;
 
-import com.goide.psi.GoNamedElement;
-import com.goide.psi.GoTypeSpec;
-import com.goide.psi.impl.GoTypeSpecImpl;
+import com.dexscript.psi.GoNamedElement;
+import com.dexscript.psi.GoTypeSpec;
+import com.dexscript.psi.impl.GoTypeSpecImpl;
 import com.goide.stubs.GoTypeSpecStub;
 import com.goide.stubs.index.GoTypesIndex;
 import com.intellij.lang.ASTNode;

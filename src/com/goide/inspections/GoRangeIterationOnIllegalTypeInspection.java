@@ -16,12 +16,12 @@
 
 package com.goide.inspections;
 
-import com.goide.psi.GoExpression;
-import com.goide.psi.GoRangeClause;
-import com.goide.psi.GoType;
-import com.goide.psi.GoVisitor;
-import com.goide.psi.impl.GoPsiImplUtil;
-import com.goide.psi.impl.GoTypeUtil;
+import com.dexscript.psi.GoExpression;
+import com.dexscript.psi.GoRangeClause;
+import com.dexscript.psi.GoType;
+import com.dexscript.psi.GoVisitor;
+import com.dexscript.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.impl.GoTypeUtil;
 import com.intellij.codeInspection.LocalInspectionToolSession;
 import com.intellij.codeInspection.ProblemHighlightType;
 import com.intellij.codeInspection.ProblemsHolder;

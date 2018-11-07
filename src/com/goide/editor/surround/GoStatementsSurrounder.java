@@ -16,9 +16,9 @@
 
 package com.goide.editor.surround;
 
-import com.goide.psi.GoBlock;
-import com.goide.psi.GoIfStatement;
-import com.goide.psi.impl.GoElementFactory;
+import com.dexscript.psi.GoBlock;
+import com.dexscript.psi.GoIfStatement;
+import com.dexscript.psi.impl.GoElementFactory;
 import com.intellij.lang.surroundWith.Surrounder;
 import com.intellij.openapi.editor.Editor;
 import com.intellij.openapi.project.Project;

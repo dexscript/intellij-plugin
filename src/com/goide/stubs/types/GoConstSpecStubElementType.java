@@ -16,9 +16,9 @@
 
 package com.goide.stubs.types;
 
-import com.goide.psi.GoConstSpec;
-import com.goide.psi.GoFunctionOrMethodDeclaration;
-import com.goide.psi.impl.GoConstSpecImpl;
+import com.dexscript.psi.GoConstSpec;
+import com.dexscript.psi.GoFunctionOrMethodDeclaration;
+import com.dexscript.psi.impl.GoConstSpecImpl;
 import com.goide.stubs.GoConstSpecStub;
 import com.intellij.lang.ASTNode;
 import com.intellij.openapi.util.text.StringUtil;

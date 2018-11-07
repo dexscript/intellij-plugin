@@ -16,8 +16,8 @@
 
 package com.goide.quickfix;
 
-import com.goide.psi.GoConditionalExpr;
-import com.goide.psi.GoStringLiteral;
+import com.dexscript.psi.GoConditionalExpr;
+import com.dexscript.psi.GoStringLiteral;
 import com.intellij.codeInspection.LocalQuickFixBase;
 import com.intellij.codeInspection.ProblemDescriptor;
 import com.intellij.openapi.project.Project;
@@ -28,8 +28,8 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.Arrays;
 
-import static com.goide.psi.impl.GoElementFactory.createExpression;
-import static com.goide.psi.impl.GoPsiImplUtil.isSingleCharLiteral;
+import static com.dexscript.psi.impl.GoElementFactory.createExpression;
+import static com.dexscript.psi.impl.GoPsiImplUtil.isSingleCharLiteral;
 import static java.lang.String.format;
 
 public class GoConvertStringToByteQuickFix extends LocalQuickFixBase {

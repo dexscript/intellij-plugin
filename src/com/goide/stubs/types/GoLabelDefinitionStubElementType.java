@@ -16,8 +16,8 @@
 
 package com.goide.stubs.types;
 
-import com.goide.psi.GoLabelDefinition;
-import com.goide.psi.impl.GoLabelDefinitionImpl;
+import com.dexscript.psi.GoLabelDefinition;
+import com.dexscript.psi.impl.GoLabelDefinitionImpl;
 import com.goide.stubs.GoLabelDefinitionStub;
 import com.intellij.lang.ASTNode;
 import com.intellij.psi.stubs.StubElement;

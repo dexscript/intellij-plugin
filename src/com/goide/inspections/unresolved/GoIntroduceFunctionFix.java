@@ -16,12 +16,13 @@
 
 package com.goide.inspections.unresolved;
 
+import com.dexscript.psi.*;
 import com.goide.GoConstants;
 import com.goide.GoDocumentationProvider;
 import com.goide.project.GoVendoringUtil;
 import com.goide.psi.*;
-import com.goide.psi.impl.GoPsiImplUtil;
-import com.goide.psi.impl.GoTypeUtil;
+import com.dexscript.psi.impl.GoPsiImplUtil;
+import com.dexscript.psi.impl.GoTypeUtil;
 import com.goide.refactor.GoRefactoringUtil;
 import com.goide.util.GoPathScopeHelper;
 import com.goide.util.GoUtil;

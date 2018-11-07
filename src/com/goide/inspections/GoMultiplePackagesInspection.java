@@ -17,8 +17,8 @@
 package com.goide.inspections;
 
 import com.goide.GoConstants;
-import com.goide.psi.GoFile;
-import com.goide.psi.GoPackageClause;
+import com.dexscript.psi.GoFile;
+import com.dexscript.psi.GoPackageClause;
 import com.goide.quickfix.GoMultiplePackagesQuickFix;
 import com.goide.sdk.GoPackageUtil;
 import com.intellij.codeInspection.LocalQuickFix;

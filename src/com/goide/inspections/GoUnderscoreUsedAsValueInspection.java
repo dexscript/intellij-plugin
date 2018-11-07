@@ -16,8 +16,8 @@
 
 package com.goide.inspections;
 
-import com.goide.psi.GoReferenceExpression;
-import com.goide.psi.GoVisitor;
+import com.dexscript.psi.GoReferenceExpression;
+import com.dexscript.psi.GoVisitor;
 import com.intellij.codeInsight.highlighting.ReadWriteAccessDetector;
 import com.intellij.codeInspection.LocalInspectionToolSession;
 import com.intellij.codeInspection.ProblemHighlightType;

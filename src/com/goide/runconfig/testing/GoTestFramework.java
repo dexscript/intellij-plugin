@@ -16,7 +16,7 @@
 
 package com.goide.runconfig.testing;
 
-import com.goide.psi.GoFunctionOrMethodDeclaration;
+import com.dexscript.psi.GoFunctionOrMethodDeclaration;
 import com.goide.runconfig.testing.frameworks.gobench.GobenchFramework;
 import com.goide.runconfig.testing.frameworks.gocheck.GocheckFramework;
 import com.goide.runconfig.testing.frameworks.gotest.GotestFramework;

@@ -16,7 +16,7 @@
 
 package com.goide.editor.surround;
 
-import com.goide.psi.GoExpression;
+import com.dexscript.psi.GoExpression;
 import com.goide.refactor.GoIntroduceVariableBase;
 import com.intellij.featureStatistics.FeatureUsageTracker;
 import com.intellij.internal.statistic.UsageTrigger;
