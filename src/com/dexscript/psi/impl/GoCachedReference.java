@@ -16,7 +16,7 @@
 
 package com.dexscript.psi.impl;
 
-import com.goide.util.GoUtil;
+import com.dexscript.intellij.util.GoUtil;
 import com.intellij.openapi.util.TextRange;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiReferenceBase;

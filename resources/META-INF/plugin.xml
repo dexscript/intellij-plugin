@@ -42,29 +42,29 @@
 
     <module-components>
         <component>
-            <implementation-class>com.goide.project.GoModuleLibrariesInitializer</implementation-class>
+            <implementation-class>com.dexscript.intellij.project.GoModuleLibrariesInitializer</implementation-class>
         </component>
     </module-components>
 
     <extensions defaultExtensionNs="com.intellij">
         <lang.parserDefinition language="go" implementationClass="com.dexscript.intellij.GoParserDefinition"/>
-        <fileTypeFactory implementation="com.goide.GoFileTypeFactory"/>
+        <fileTypeFactory implementation="com.dexscript.intellij.GoFileTypeFactory"/>
         <lang.syntaxHighlighterFactory language="go"
-                                       implementationClass="com.goide.highlighting.GoSyntaxHighlighterFactory"/>
-        <lang.psiStructureViewFactory language="go" implementationClass="com.goide.tree.GoStructureViewFactory"/>
-        <extendWordSelectionHandler implementation="com.goide.editor.GoWordSelectioner"/>
-        <lang.braceMatcher language="go" implementationClass="com.goide.editor.GoBraceMatcher"/>
-        <quoteHandler fileType="Go" className="com.goide.editor.GoQuoteHandler"/>
-        <editorTypedHandler implementationClass="com.goide.editor.GoTypedHandler"/>
-        <lang.commenter language="go" implementationClass="com.goide.GoCommenter"/>
+                                       implementationClass="com.dexscript.intellij.highlighting.GoSyntaxHighlighterFactory"/>
+        <lang.psiStructureViewFactory language="go" implementationClass="com.dexscript.intellij.tree.GoStructureViewFactory"/>
+        <extendWordSelectionHandler implementation="com.dexscript.intellij.editor.GoWordSelectioner"/>
+        <lang.braceMatcher language="go" implementationClass="com.dexscript.intellij.editor.GoBraceMatcher"/>
+        <quoteHandler fileType="Go" className="com.dexscript.intellij.editor.GoQuoteHandler"/>
+        <editorTypedHandler implementationClass="com.dexscript.intellij.editor.GoTypedHandler"/>
+        <lang.commenter language="go" implementationClass="com.dexscript.intellij.GoCommenter"/>
         <lang.elementManipulator forClass="com.dexscript.psi.impl.GoStringLiteralImpl"
                                  implementationClass="com.dexscript.psi.impl.manipulator.GoStringManipulator"/>
-        <lang.foldingBuilder language="go" implementationClass="com.goide.editor.GoFoldingBuilder"/>
-        <lang.formatter language="go" implementationClass="com.goide.formatter.GoFormattingModelBuilder"/>
-        <codeInsight.lineMarkerProvider language="go" implementationClass="com.goide.marker.GoRecursiveCallMarkerProvider"/>
-        <codeStyleSettingsProvider implementation="com.goide.formatter.settings.GoCodeStyleSettingsProvider"/>
-        <langCodeStyleSettingsProvider implementation="com.goide.formatter.settings.GoLanguageCodeStyleSettingsProvider"/>
-        <!--<projectConfigurable id="go" groupId="language" provider="com.goide.configuration.GoConfigurableProvider"-->
+        <lang.foldingBuilder language="go" implementationClass="com.dexscript.intellij.editor.GoFoldingBuilder"/>
+        <lang.formatter language="go" implementationClass="com.dexscript.intellij.formatter.GoFormattingModelBuilder"/>
+        <codeInsight.lineMarkerProvider language="go" implementationClass="com.dexscript.intellij.marker.GoRecursiveCallMarkerProvider"/>
+        <codeStyleSettingsProvider implementation="com.dexscript.intellij.formatter.settings.GoCodeStyleSettingsProvider"/>
+        <langCodeStyleSettingsProvider implementation="com.dexscript.intellij.formatter.settings.GoLanguageCodeStyleSettingsProvider"/>
+        <!--<projectConfigurable id="go" groupId="language" provider="com.dexscript.intellij.configuration.GoConfigurableProvider"-->
                              <!--dynamic="true" bundle="com.goide.GoBundle"/>-->
     </extensions>
 

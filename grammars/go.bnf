@@ -12,8 +12,8 @@
   
   psiClassPrefix='Go'
   psiImplClassSuffix='Impl'
-  psiPackage='com.goide.psi'
-  psiImplPackage='com.goide.psi.impl'
+  psiPackage='com.dexscript.psi'
+  psiImplPackage='com.dexscript.psi.impl'
   psiImplUtilClass="com.dexscript.psi.impl.GoPsiImplUtil"
   parserUtilClass="com.dexscript.parser.GoParserUtil"
 

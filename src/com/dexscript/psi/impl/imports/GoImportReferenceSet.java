@@ -16,9 +16,9 @@
 
 package com.dexscript.psi.impl.imports;
 
-import com.goide.project.GoVendoringUtil;
+import com.dexscript.intellij.project.GoVendoringUtil;
 import com.dexscript.psi.GoImportString;
-import com.goide.sdk.GoSdkUtil;
+import com.dexscript.intellij.sdk.GoSdkUtil;
 import com.intellij.openapi.module.Module;
 import com.intellij.openapi.module.ModuleUtilCore;
 import com.intellij.openapi.project.Project;

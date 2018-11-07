@@ -16,7 +16,7 @@
 
 package com.dexscript.psi.impl.imports;
 
-import com.goide.GoIcons;
+import com.dexscript.intellij.GoIcons;
 import com.intellij.codeInsight.completion.CompletionUtil;
 import com.intellij.codeInsight.daemon.quickFix.CreateFileFix;
 import com.intellij.codeInsight.lookup.LookupElementBuilder;

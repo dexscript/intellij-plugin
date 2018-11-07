@@ -16,7 +16,6 @@
 
 package com.dexscript.intellij;
 
-import com.goide.GoIcons;
 import com.intellij.openapi.fileTypes.LanguageFileType;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.vfs.CharsetToolkit;

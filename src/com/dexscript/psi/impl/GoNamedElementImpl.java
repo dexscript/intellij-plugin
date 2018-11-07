@@ -17,11 +17,11 @@
 package com.dexscript.psi.impl;
 
 import com.dexscript.psi.*;
-import com.goide.GoIcons;
-import com.goide.project.GoVendoringUtil;
-import com.goide.sdk.GoPackageUtil;
+import com.dexscript.intellij.GoIcons;
+import com.dexscript.intellij.project.GoVendoringUtil;
+import com.dexscript.intellij.sdk.GoPackageUtil;
 import com.dexscript.stubs.GoNamedStub;
-import com.goide.util.GoUtil;
+import com.dexscript.intellij.util.GoUtil;
 import com.intellij.lang.ASTNode;
 import com.intellij.navigation.ItemPresentation;
 import com.intellij.openapi.module.ModuleUtilCore;
