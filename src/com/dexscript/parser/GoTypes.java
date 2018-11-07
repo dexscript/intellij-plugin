@@ -15,7 +15,7 @@
  */
 
 // This is a generated file. Not intended for manual editing.
-package com.goide;
+package com.dexscript.parser;
 
 import com.dexscript.psi.impl.*;
 import com.intellij.psi.tree.IElementType;

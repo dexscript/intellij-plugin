@@ -20,7 +20,7 @@ import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.goide.GoConstants;
 import com.goide.GoFileType;
 import com.goide.GoLanguage;
-import com.goide.GoTypes;
+import com.dexscript.parser.GoTypes;
 import com.goide.runconfig.testing.GoTestFinder;
 import com.goide.sdk.GoPackageUtil;
 import com.goide.sdk.GoSdkUtil;

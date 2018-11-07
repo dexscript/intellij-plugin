@@ -1,8 +1,6 @@
 package com.goide.lexer;
 
-import com.intellij.lexer.FlexLexer;
 import com.intellij.psi.tree.IElementType;
-import com.goide.GoTypes;
 import static com.intellij.psi.TokenType.BAD_CHARACTER;
 import static com.goide.GoParserDefinition.*;
 

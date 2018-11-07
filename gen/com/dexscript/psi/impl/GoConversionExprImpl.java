@@ -23,8 +23,7 @@ import com.intellij.lang.ASTNode;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiElementVisitor;
 import com.dexscript.psi.GoPsiTreeUtil;
-import static com.goide.GoTypes.*;
-import com.dexscript.psi.*;
+import static com.dexscript.parser.GoTypes.*;
 
 public class GoConversionExprImpl extends GoBinaryExprImpl implements GoConversionExpr {
 

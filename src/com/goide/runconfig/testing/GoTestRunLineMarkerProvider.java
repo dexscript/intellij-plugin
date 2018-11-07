@@ -16,7 +16,7 @@
 
 package com.goide.runconfig.testing;
 
-import com.goide.GoTypes;
+import com.dexscript.parser.GoTypes;
 import com.dexscript.psi.GoFunctionDeclaration;
 import com.dexscript.psi.GoFunctionOrMethodDeclaration;
 import com.dexscript.psi.GoMethodDeclaration;

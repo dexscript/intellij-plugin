@@ -33,7 +33,7 @@ import com.intellij.psi.tree.IFileElementType;
 import com.intellij.psi.tree.TokenSet;
 import org.jetbrains.annotations.NotNull;
 
-import static com.goide.GoTypes.*;
+import static com.dexscript.parser.GoTypes.*;
 
 public class GoParserDefinition implements ParserDefinition {
   public static final IElementType LINE_COMMENT = new GoTokenType("GO_LINE_COMMENT");

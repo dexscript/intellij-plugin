@@ -4,7 +4,7 @@ package com.dexscript.lexer;
 
 import com.intellij.lexer.FlexLexer;
 import com.intellij.psi.tree.IElementType;
-import com.goide.GoTypes;
+import com.dexscript.parser.GoTypes;
 import static com.intellij.psi.TokenType.BAD_CHARACTER;
 import static com.goide.GoParserDefinition.*;
 

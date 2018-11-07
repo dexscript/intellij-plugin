@@ -5,7 +5,7 @@
   implements='com.dexscript.psi.GoCompositeElement'
   extends='com.dexscript.psi.impl.GoCompositeElementImpl'
   
-  elementTypeHolderClass='com.goide.GoTypes'
+  elementTypeHolderClass='com.dexscript.parser.GoTypes'
   elementTypeClass='com.dexscript.psi.GoCompositeElementType'
   tokenTypeClass='com.dexscript.psi.GoTokenType'
   psiTreeUtilClass='com.dexscript.psi.GoPsiTreeUtil'

@@ -19,7 +19,7 @@ package com.dexscript.parser;
 
 import com.intellij.lang.PsiBuilder;
 import com.intellij.lang.PsiBuilder.Marker;
-import static com.goide.GoTypes.*;
+import static com.dexscript.parser.GoTypes.*;
 
 import com.intellij.lang.parser.GeneratedParserUtilBase;
 import com.intellij.psi.tree.IElementType;

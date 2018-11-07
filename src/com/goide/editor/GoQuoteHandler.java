@@ -16,7 +16,7 @@
 
 package com.goide.editor;
 
-import com.goide.GoTypes;
+import com.dexscript.parser.GoTypes;
 import com.intellij.codeInsight.editorActions.JavaLikeQuoteHandler;
 import com.intellij.codeInsight.editorActions.SimpleTokenSetQuoteHandler;
 import com.intellij.openapi.editor.Editor;

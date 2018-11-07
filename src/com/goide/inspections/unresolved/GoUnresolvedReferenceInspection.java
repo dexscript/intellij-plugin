@@ -17,10 +17,9 @@
 package com.goide.inspections.unresolved;
 
 import com.dexscript.psi.*;
-import com.goide.GoTypes;
+import com.dexscript.parser.GoTypes;
 import com.goide.codeInsight.imports.GoImportPackageQuickFix;
 import com.goide.inspections.GoInspectionBase;
-import com.dexscript.psi.*;
 import com.dexscript.psi.impl.GoReference;
 import com.intellij.codeInsight.highlighting.ReadWriteAccessDetector;
 import com.intellij.codeInspection.LocalInspectionToolSession;

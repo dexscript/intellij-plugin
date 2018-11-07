@@ -23,9 +23,8 @@ import com.intellij.lang.ASTNode;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiElementVisitor;
 import com.dexscript.psi.GoPsiTreeUtil;
-import static com.goide.GoTypes.*;
+import static com.dexscript.parser.GoTypes.*;
 import com.goide.stubs.GoMethodDeclarationStub;
-import com.dexscript.psi.*;
 import com.intellij.psi.stubs.IStubElementType;
 
 public class GoMethodDeclarationImpl extends GoFunctionOrMethodDeclarationImpl<GoMethodDeclarationStub> implements GoMethodDeclaration {

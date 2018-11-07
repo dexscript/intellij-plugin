@@ -18,9 +18,8 @@ package com.goide.template;
 
 import com.dexscript.psi.*;
 import com.goide.GoLanguage;
-import com.goide.GoTypes;
+import com.dexscript.parser.GoTypes;
 import com.goide.highlighting.GoSyntaxHighlighter;
-import com.dexscript.psi.*;
 import com.intellij.codeInsight.template.TemplateContextType;
 import com.intellij.openapi.fileTypes.SyntaxHighlighter;
 import com.intellij.psi.*;

@@ -16,7 +16,7 @@
 
 package com.goide.stubs.types;
 
-import com.goide.GoTypes;
+import com.dexscript.parser.GoTypes;
 import com.dexscript.psi.GoFunctionOrMethodDeclaration;
 import com.dexscript.psi.GoVarSpec;
 import com.dexscript.psi.impl.GoVarSpecImpl;

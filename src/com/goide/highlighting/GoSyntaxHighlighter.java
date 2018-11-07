@@ -17,7 +17,7 @@
 package com.goide.highlighting;
 
 import com.goide.GoParserDefinition;
-import com.goide.GoTypes;
+import com.dexscript.parser.GoTypes;
 import com.dexscript.lexer.GoLexer;
 import com.intellij.lexer.Lexer;
 import com.intellij.openapi.editor.colors.TextAttributesKey;

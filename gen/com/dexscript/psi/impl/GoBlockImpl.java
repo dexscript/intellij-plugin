@@ -28,8 +28,8 @@ import com.intellij.lang.ASTNode;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiElementVisitor;
 
-import static com.goide.GoTypes.*;
-import com.dexscript.psi.*;
+import static com.dexscript.parser.GoTypes.*;
+
 import com.intellij.psi.ResolveState;
 import com.intellij.psi.scope.PsiScopeProcessor;
 

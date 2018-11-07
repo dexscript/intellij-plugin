@@ -17,8 +17,7 @@
 package com.goide.editor;
 
 import com.dexscript.psi.*;
-import com.goide.GoTypes;
-import com.dexscript.psi.*;
+import com.dexscript.parser.GoTypes;
 import com.intellij.codeInsight.CodeInsightBundle;
 import com.intellij.codeInsight.lookup.LookupElement;
 import com.intellij.lang.parameterInfo.*;

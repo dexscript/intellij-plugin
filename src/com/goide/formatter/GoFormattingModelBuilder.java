@@ -18,7 +18,6 @@ package com.goide.formatter;
 
 import com.dexscript.psi.*;
 import com.goide.GoLanguage;
-import com.dexscript.psi.*;
 import com.intellij.formatting.*;
 import com.intellij.formatting.alignment.AlignmentStrategy;
 import com.intellij.lang.ASTNode;
@@ -39,7 +38,7 @@ import java.util.Collections;
 import java.util.List;
 
 import static com.goide.GoParserDefinition.*;
-import static com.goide.GoTypes.*;
+import static com.dexscript.parser.GoTypes.*;
 
 public class GoFormattingModelBuilder implements FormattingModelBuilder {
   @NotNull

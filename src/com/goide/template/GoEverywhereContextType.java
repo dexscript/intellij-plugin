@@ -17,7 +17,7 @@
 package com.goide.template;
 
 import com.goide.GoConstants;
-import com.goide.GoTypes;
+import com.dexscript.parser.GoTypes;
 import com.intellij.codeInsight.template.EverywhereContextType;
 import com.intellij.psi.PsiComment;
 import com.intellij.psi.PsiElement;

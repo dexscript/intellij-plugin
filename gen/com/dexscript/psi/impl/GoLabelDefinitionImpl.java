@@ -24,9 +24,8 @@ import com.intellij.lang.ASTNode;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiElementVisitor;
 
-import static com.goide.GoTypes.*;
+import static com.dexscript.parser.GoTypes.*;
 import com.goide.stubs.GoLabelDefinitionStub;
-import com.dexscript.psi.*;
 import com.intellij.psi.stubs.IStubElementType;
 
 public class GoLabelDefinitionImpl extends GoNamedElementImpl<GoLabelDefinitionStub> implements GoLabelDefinition {

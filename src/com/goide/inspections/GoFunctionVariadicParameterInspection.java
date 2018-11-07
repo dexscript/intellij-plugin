@@ -17,7 +17,6 @@
 package com.goide.inspections;
 
 import com.dexscript.psi.*;
-import com.dexscript.psi.*;
 import com.goide.quickfix.GoDeleteQuickFix;
 import com.intellij.codeInspection.LocalInspectionToolSession;
 import com.intellij.codeInspection.ProblemHighlightType;
@@ -27,7 +26,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
-import static com.goide.GoTypes.TRIPLE_DOT;
+import static com.dexscript.parser.GoTypes.TRIPLE_DOT;
 
 public class GoFunctionVariadicParameterInspection extends GoInspectionBase {
   private static final GoDeleteQuickFix DELETE_QUICK_FIX = new GoDeleteQuickFix("Delete ...", TRIPLE_DOT);

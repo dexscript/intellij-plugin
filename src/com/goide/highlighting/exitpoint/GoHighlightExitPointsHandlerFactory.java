@@ -16,7 +16,7 @@
 
 package com.goide.highlighting.exitpoint;
 
-import com.goide.GoTypes;
+import com.dexscript.parser.GoTypes;
 import com.dexscript.psi.GoCallExpr;
 import com.dexscript.psi.GoReferenceExpression;
 import com.dexscript.psi.impl.GoPsiImplUtil;

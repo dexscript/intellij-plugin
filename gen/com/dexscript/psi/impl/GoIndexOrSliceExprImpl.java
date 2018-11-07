@@ -28,8 +28,8 @@ import com.intellij.lang.ASTNode;
 import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiElementVisitor;
 
-import static com.goide.GoTypes.*;
-import com.dexscript.psi.*;
+import static com.dexscript.parser.GoTypes.*;
+
 import com.intellij.openapi.util.Trinity;
 
 public class GoIndexOrSliceExprImpl extends GoExpressionImpl implements GoIndexOrSliceExpr {
