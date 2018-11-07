@@ -19,13 +19,10 @@ package com.goide.highlighting;
 import com.dexscript.psi.*;
 import com.goide.GoConstants;
 import com.dexscript.parser.GoTypes;
-import com.goide.inspections.GoInspectionUtil;
 import com.dexscript.psi.impl.GoCType;
 import com.dexscript.psi.impl.GoPsiImplUtil;
 import com.dexscript.psi.impl.GoTypeUtil;
-import com.goide.quickfix.GoDeleteRangeQuickFix;
-import com.goide.quickfix.GoEmptySignatureQuickFix;
-import com.goide.quickfix.GoReplaceWithReturnStatementQuickFix;
+import com.goide.inspections.GoInspectionUtil;
 import com.google.common.collect.Sets;
 import com.intellij.lang.ASTNode;
 import com.intellij.lang.annotation.Annotation;
@@ -64,13 +61,11 @@ public class GoAnnotator implements Annotator {
     if (element instanceof GoContinueStatement) {
       if (!(PsiTreeUtil.getParentOfType(element, GoForStatement.class, GoFunctionLit.class) instanceof GoForStatement)) {
         Annotation annotation = holder.createErrorAnnotation(element, "Continue statement not inside a for loop");
-        annotation.registerFix(new GoReplaceWithReturnStatementQuickFix(element));
       }
     }
     else if (element instanceof GoBreakStatement) {
       if (GoPsiImplUtil.getBreakStatementOwner(element) == null) {
         Annotation annotation = holder.createErrorAnnotation(element, "Break statement not inside a for loop, select or switch");
-        annotation.registerFix(new GoReplaceWithReturnStatementQuickFix(element));
       }
     }
     else if (element instanceof GoReferenceExpression) {
@@ -190,13 +185,11 @@ public class GoAnnotator implements Annotator {
               if (result != null && !result.isVoid()) {
                 Annotation annotation = holder.createErrorAnnotation(result, declaration.getName() +
                                                                              " function must have no arguments and no return values");
-                annotation.registerFix(new GoEmptySignatureQuickFix(declaration));
               }
               GoParameters parameters = signature.getParameters();
               if (!parameters.getParameterDeclarationList().isEmpty()) {
                 Annotation annotation = holder.createErrorAnnotation(parameters, declaration.getName() +
                                                                                  " function must have no arguments and no return values");
-                annotation.registerFix(new GoEmptySignatureQuickFix(declaration));
               }
             }
           }
@@ -216,7 +209,6 @@ public class GoAnnotator implements Annotator {
           PsiElement secondColon = colons[1].getPsi();
           TextRange r = TextRange.create(secondColon.getTextRange().getStartOffset(), thirdIndex.getTextRange().getEndOffset());
           Annotation annotation = holder.createErrorAnnotation(r, "Invalid operation " + slice.getText() + " (3-index slice of string)");
-          annotation.registerFix(new GoDeleteRangeQuickFix(secondColon, thirdIndex, "Delete third index"));
         }
       }
     }

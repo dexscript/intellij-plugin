@@ -18,7 +18,6 @@ package com.dexscript.psi.impl.imports;
 
 import com.goide.codeInsight.imports.GoGetPackageFix;
 import com.goide.completion.GoCompletionUtil;
-import com.goide.quickfix.GoDeleteImportQuickFix;
 import com.goide.sdk.GoPackageUtil;
 import com.intellij.codeInsight.completion.CompletionUtil;
 import com.intellij.codeInsight.daemon.quickFix.CreateFileFix;
@@ -122,10 +121,6 @@ public class GoImportReference extends FileReference {
 
   @Override
   public LocalQuickFix[] getQuickFixes() {
-    if (GoPackageUtil.isBuiltinPackage(resolve())) {
-      return new LocalQuickFix[]{new GoDeleteImportQuickFix()};
-    }
-
     List<LocalQuickFix> result = ContainerUtil.newArrayList();
     FileReferenceSet fileReferenceSet = getFileReferenceSet();
     if (fileReferenceSet instanceof GoImportReferenceSet && !((GoImportReferenceSet)fileReferenceSet).isRelativeImport()
